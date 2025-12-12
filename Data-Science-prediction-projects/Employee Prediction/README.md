@@ -31,27 +31,44 @@ Key Findings:
 
    ![Gender](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Gender.png)
 
+   Insight:
+
+   Based on the Employee Gender chart, male employees constitue the largest gender group in the company, with a higher number than female employees
 2. Visualization of Employee's Education
 
    ![Education](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Education.png)
+
+   Insight:
+
+   The visualization shows that the majority of employees have a bachelor's degree. On the other hand, employees with a PhD are the smallest group in the company
 
 3. Visualization of The Employees' Place of Residence
 
    ![City](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Visualization%20of%20Employee.png)
 
+Insight:
+
+Based on the visualization of Employee's hometowns, it appears that the majority of employees come from Bangalore. Although their total numbers are lower than those from Bangalore, employees from Pune and New Delhi also contribute to the total number of employees in the company. 
+
 4. Visualization of Employee's Payment Tier
 
    ![Payment Tier](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Payment%20Tier.png)
+
+   Insight:
+
+   Based on the payment tier visualization, the majority of employees are in payment tier 3(High), which indicates that most employees receive high salaries
 
 5. Visualization of Age Category
    
    ![Age Category](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Age%20Category.png)
 
-6. Visualization of Employee Leaving
+   Insig
+
+7. Visualization of Employee Leaving
 
    ![Resign](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Leave%20or%20Not.png)
 
-7. Visualization of Employee Join Year
+8. Visualization of Employee Join Year
 
    ![Join Year](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Join%20Year.png)
 
@@ -77,7 +94,10 @@ Key Findings:
 
    ![Gender VS Leave or Not](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Status%20VS%20Gender.png)
 
-6. Visualization of 
+6. Visualization of Age Category vs Leave or Not
+
+   ![Age Category vs Leave or Not](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Age%20Category%20vs%20Leave.png)
+   
 ## Data Preparation
 ## Modelling
 ## Evaluation
