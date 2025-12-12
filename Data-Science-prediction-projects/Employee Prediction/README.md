@@ -62,15 +62,26 @@ Based on the visualization of Employee's hometowns, it appears that the majority
    
    ![Age Category](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Age%20Category.png)
 
-   Insig
+   Insight:
 
-7. Visualization of Employee Leaving
+   Based on the visualization of Age Categories, it can be seen that the junior age group is the biggest than other categories. Meanwhile, the manejerial category is the smallest category compare to other categories
+
+6. Visualization of Employee Leaving
 
    ![Resign](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Leave%20or%20Not.png)
+   
+Insight:
 
-8. Visualization of Employee Join Year
+Based on the visualization of employee resignation status, it appears that the majority of employees choose to remain working at the company. However, the number of employees who plan to resign is also quite significant, namely around half of the number of employees who choose to stay.
+
+7. Visualization of Employee Join Year
 
    ![Join Year](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Join%20Year.png)
+
+
+Insight: 
+
+Based on the visualization of the year employees joined the company, it can be seen that the highest number of employees joined in 2017. This year marked the peak of the company's recruitment. However, in 2018, there was a drastic decline in the number of employees joining, making it the year with the fewest recruitments. This sharp decline may indicate changes in labor needs, stricter recruitment policies, or different company conditions compared to the previous year.
 
 #### Bivariate
 
@@ -100,5 +111,25 @@ Based on the visualization of Employee's hometowns, it appears that the majority
    
 ## Data Preparation
 ## Modelling
+1. Logistic Regression
+   Logistic Regression is a simple and interpretable
+3. Random Forest
+4. Decisin Tree
+5. SVM
 ## Evaluation
+
+Evaluate each algorithm used for both feature selection and parameter hypertuning
+
+|                     Algoritma                  |   Accuracy   |   Precision   |    Recall    |    F1 Score    |
+|------------------------------------------------|--------------|---------------|--------------|----------------|
+| Logistic Regression                            |   0.640145   |   	0.542857   |   0.604545   |    0.572043    |
+|  Random Forest                                 |   0.737794   |    0.707182   |   0.581818   |    0.638404    | 
+|  Decision Tree                                 |   0.676311   |    0.594470   |   0.586364   |    0.590389    |
+|       SVM                                      |   0.524412   |    0.439437   |   0.709091   |    0.542609    |
+| Logistic Regression (After Feature Selection)  |   0.591320   |    0.489051   |   0.609091   |    0.542510    |
+| Random Forest (After Feature Selection)        |   0.755877   |    0.763975   |   0.559091   |    0.645669    |
+| Decision Tree (After Feature Selection)        |   0.764919   |    0.792208   |   0.554545   |    0.652406    |
+| SVM (Feature Selection)                        |   0.589512   |    0.487179   |   0.604545   |    0.539554    |
+| Random Forest (After Hypertune Parameter)      |   0.772152	 |    0.797468   |   0.572727   |    0.666667    |
+| Decision Tree (After Hypertune Parameter)      |   0.757685   |    0.772152   |   0.554545   |    0.645503    |
 
