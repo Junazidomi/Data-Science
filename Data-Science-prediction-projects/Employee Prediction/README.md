@@ -112,10 +112,20 @@ Based on the visualization of the year employees joined the company, it can be s
 ## Data Preparation
 ## Modelling
 1. Logistic Regression
-   Logistic Regression is a simple and interpretable
-3. Random Forest
-4. Decisin Tree
-5. SVM
+   
+   Logistic Regression is an algorithm that estimates the probability of an event occuring, such as choosing or not choosing, based on a given dataset of independent variables
+   
+2. Random Forest
+
+   Random Forest is a widely used machine learning algorithm that combines the results of several decision trees to achieve a single result that is easy to use and flexible
+   
+3. Decisin Tree
+
+   Decision trees are supervised, non-parametric learning algorithms that  have a hierarchical tree structure, consisting of root nodes, branches, internal nodes, and leaf nodes.
+   
+4. SVM
+
+   SVM is a classification algorithm that finds the optimal hyperplane to separate classes, performing well in high-dimensional spaces.
 ## Evaluation
 
 Evaluate each algorithm used for both feature selection and parameter hypertuning
@@ -126,10 +136,17 @@ Evaluate each algorithm used for both feature selection and parameter hypertunin
 |  Random Forest                                 |   0.737794   |    0.707182   |   0.581818   |    0.638404    | 
 |  Decision Tree                                 |   0.676311   |    0.594470   |   0.586364   |    0.590389    |
 |       SVM                                      |   0.524412   |    0.439437   |   0.709091   |    0.542609    |
-| Logistic Regression (After Feature Selection)  |   0.591320   |    0.489051   |   0.609091   |    0.542510    |
-| Random Forest (After Feature Selection)        |   0.755877   |    0.763975   |   0.559091   |    0.645669    |
-| Decision Tree (After Feature Selection)        |   0.764919   |    0.792208   |   0.554545   |    0.652406    |
-| SVM (Feature Selection)                        |   0.589512   |    0.487179   |   0.604545   |    0.539554    |
-| Random Forest (After Hypertune Parameter)      |   0.772152	 |    0.797468   |   0.572727   |    0.666667    |
-| Decision Tree (After Hypertune Parameter)      |   0.757685   |    0.772152   |   0.554545   |    0.645503    |
+| Logistic Regression (After Feature Selection)                      |   0.591320   |    0.489051   |   0.609091   |    0.542510    |
+| Random Forest (After Feature Selection)                            |   0.755877   |    0.763975   |   0.559091   |    0.645669    |
+| Decision Tree (After Feature Selection)                            |   0.764919   |    0.792208   |   0.554545   |    0.652406    |
+| SVM (Feature Selection)                                            |   0.589512   |    0.487179   |   0.604545   |    0.539554    |
+| Random Forest (After  Feature Selection and Hypertune Parameter )  |   0.772152	|    0.797468   |   0.572727   |    0.666667    |
+| Decision Tree (After  Feature Selection and Hypertune Parameter)   |   0.757685   |    0.772152   |   0.554545   |    0.645503    |
+
+3. Confusion Matrix
+The best model is Random forest (After Feature Selection and Hypertune Parameter). The following is the confusion matrix of the Random Forest
+
+![RF Test](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Metric/RF%20Test.png)
+
+Conclusion:
 
