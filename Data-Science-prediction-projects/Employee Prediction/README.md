@@ -137,6 +137,22 @@ Berdasarkan visualisasi di atas, ditemukan bahwa karyawan pada level junior memi
 
 The data preparation process is as follows:
 
+1. Drop Data Duplicate
+
+   At this stage, data is first identified to detect the existence of duplicate data. Once duplicate data is found, it is deleted to prevent bias in the data and maintain data consistency and quality.
+   
+2. Encoding
+   
+    This part of the process transforms categorical data into numerical data to facilitate model training. In addition, numerical data is required for modeling. The methods used are LabelEncoder, OrdinalEncoder, and others. 
+
+3. Split the train data and test data
+
+   In this section, train data and test data are split using the sklearn train_test_split library to split dependent data and independent data, which are then processed.
+   
+5. Oversample
+   
+6. Feature Selection
+
 
 ## Modelling
 1. Logistic Regression
