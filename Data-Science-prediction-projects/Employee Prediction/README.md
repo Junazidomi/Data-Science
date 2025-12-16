@@ -1,6 +1,18 @@
 # Employee Predidction 
 
 ## Business Understanding
+
+### Background
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Employee attrition is a significant challenge for companies because it can disrupt productivity and increase recruitment costs, which many companies in India face. Without a deep understanding of the factors that drive employees to resign, retention efforts are often ineffective.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Therefore, a data-driven approach is needed, utilizing historical employee data in India to identify patterns and predict employees who are likely to resign. This approach is expected to assist companies in strategic planning and policy improvement through predictive models built from historical company data.
+
+### Purpose
+
+The goal of this project is to create a model that can predict which employees are most likely to leave the company, so that the HR department can implement preventive measures before that happens.
+
+
 ## Data Understandings
 
 This Dataset describes several features related to predicting employee resignations based on the criteri in this dataset. The following is an overview of the features contained in this dataset. [Link](https://www.kaggle.com/datasets/tejashvi14/employee-future-prediction)
@@ -149,10 +161,13 @@ The data preparation process is as follows:
 
    In this section, train data and test data are split using the sklearn train_test_split library to split dependent data and independent data, which are then processed.
    
-5. Oversample
-   
-6. Feature Selection
+4. Oversample
 
+   At this stage, after separating the data into training data and test data, oversampling is performed on the target variable. Oversampling is performed after the train–test split process with the aim of maintaining the authenticity of the test data. In addition, oversampling aims to improve model performance at the training stage and reduce bias towards minority classes.
+   
+5. Feature Selection
+
+   At this stage, after modeling, if it is found that the model performance is not yet optimal, then feature selection is performed with the aim of selecting features or reducing the number of features related to the target variable. The method used in this project is Recursive Feature Elimination (RFE).
 
 ## Modelling
 1. Logistic Regression
@@ -191,7 +206,8 @@ Evaluate each algorithm used for both feature selection and parameter hypertunin
 
 The best model is Random forest (After Feature Selection and Hypertune Parameter). The following is the confusion matrix of the Random Forest
 
-![RF Test](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Metric/RF%20Test.png)
+![RF Test]()
 
 Conclusion:
 
+- 
