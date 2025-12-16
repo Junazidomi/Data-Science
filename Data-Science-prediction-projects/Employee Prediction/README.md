@@ -89,27 +89,55 @@ Based on the visualization of the year employees joined the company, it can be s
 
    ![Payment VS Education](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Payment%20vs%20Education.png)
 
+Insight:
+
+It was found that employees at every level of education were generally in the high payment tier (3), while only a small proportion of employees from each level of education were in the low payment tier (1).
+
 2. Visualization of Gender VS Payment
 
    ![Age Category V Employee Leaving](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Gender%20vs%20Payment.png)
+
+Insight: 
+
+It was found that employees of both genders were mostly in the high payment tier (3), while the number of employees in the low payment tier (1) was the smallest for each gender.
 
 3. Visualization of Join Year VS Leave or Not
 
    ![Join Year vs Leaver or Not](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Join%20Year%20VS%20Leave.png)
 
+Insight:
+
+It was found that the majority of employees who resigned from the company were those who joined in 2018, while the lowest number of resignations came from employees who joined in 2012. This indicates potential employee dissatisfaction with the company. In addition, the low resignation rate among employees who joined in 2012 shows that these employees have been able to adapt to the company environment.
+
 4. Visualization of Leave or Not VS Payment Tier
 
-   ![Leave or Not VS Payment Tier](github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Status%20VS%20Leave.png?raw=true)
+   ![Leave or Not VS Payment Tier](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Status%20VS%20Leave.png)
+
+Insight: 
+
+Based on this visualization, it was found that the highest number of resignations came from the high-income group. This indicates that even though employees receive high salaries, the company may have high work demands, such as excessive working hours. In addition, this condition may also indicate that employees choose to resign because they are attracted to job opportunities at other companies that offer higher compensation with lower work demands.
 
 5. Visualization of Gender VS Leave or Not
 
    ![Gender VS Leave or Not](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Employee%20Status%20VS%20Gender.png)
 
+Insight:
+
+Based on the visualization above, it was found that female employees were the group that resigned from the company the most. This indicates the possibility that the company has not fully implemented the principle of gender equality in the work environment.
+
 6. Visualization of Age Category vs Leave or Not
 
    ![Age Category vs Leave or Not](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Picture/Age%20Category%20vs%20Leave.png)
+
+Insight:
+
+Berdasarkan visualisasi di atas, ditemukan bahwa karyawan pada level junior memiliki jumlah pengunduran diri yang lebih tinggi dibandingkan dengan kategori lainnya.
    
 ## Data Preparation
+
+The data preparation process is as follows:
+
+
 ## Modelling
 1. Logistic Regression
    
@@ -143,7 +171,8 @@ Evaluate each algorithm used for both feature selection and parameter hypertunin
 | Random Forest (After  Feature Selection and Hypertune Parameter )  |   0.772152	|    0.797468   |   0.572727   |    0.666667    |
 | Decision Tree (After  Feature Selection and Hypertune Parameter)   |   0.757685   |    0.772152   |   0.554545   |    0.645503    |
 
-3. Confusion Matrix
+**Confusion Matrix**
+
 The best model is Random forest (After Feature Selection and Hypertune Parameter). The following is the confusion matrix of the Random Forest
 
 ![RF Test](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Metric/RF%20Test.png)
