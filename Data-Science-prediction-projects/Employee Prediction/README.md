@@ -189,12 +189,12 @@ The data preparation process is as follows:
 
 Evaluate each algorithm used for both feature selection and parameter hypertuning
 
-|                     Algoritma                  |   Accuracy   |   Precision   |    Recall    |    F1 Score    |
-|------------------------------------------------|--------------|---------------|--------------|----------------|
-| Logistic Regression                            |   0.640145   |   	0.542857   |   0.604545   |    0.572043    |
-|  Random Forest                                 |   0.737794   |    0.707182   |   0.581818   |    0.638404    | 
-|  Decision Tree                                 |   0.676311   |    0.594470   |   0.586364   |    0.590389    |
-|       SVM                                      |   0.524412   |    0.439437   |   0.709091   |    0.542609    |
+|                     Algoritma                                      |   Accuracy   |   Precision   |    Recall    |    F1 Score    |
+|--------------------------------------------------------------------|--------------|---------------|--------------|----------------|
+| Logistic Regression                                                |   0.640145   |   	0.542857   |   0.604545   |    0.572043    |
+|  Random Forest                                                     |   0.737794   |    0.707182   |   0.581818   |    0.638404    | 
+|  Decision Tree                                                     |   0.676311   |    0.594470   |   0.586364   |    0.590389    |
+|       SVM                                                          |   0.524412   |    0.439437   |   0.709091   |    0.542609    |
 | Logistic Regression (After Feature Selection)                      |   0.591320   |    0.489051   |   0.609091   |    0.542510    |
 | Random Forest (After Feature Selection)                            |   0.755877   |    0.763975   |   0.559091   |    0.645669    |
 | Decision Tree (After Feature Selection)                            |   0.764919   |    0.792208   |   0.554545   |    0.652406    |
@@ -206,8 +206,11 @@ Evaluate each algorithm used for both feature selection and parameter hypertunin
 
 The best model is Random forest (After Feature Selection and Hypertune Parameter). The following is the confusion matrix of the Random Forest
 
-![RF Test]()
+![RF Test](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Employee%20Prediction/Metric/RF%20Test.png)
 
 Conclusion:
 
-- 
+- The best model for predicting employee resignations from a company is Random Forest, after feature selection and hyperparameter tuning.
+- After feature selection, an improvement in metric performance was obtained for each algorithm. In addition, the feature selection results showed that the selected features were “JoiningYear, City, PaymentTier, Gender, and EverBenched”.
+- The best model for predicting employee resignations from a company is the Random Forest model after feature selection and hyperparameter tuning, as it achieves the highest F1-score compared to other algorithms, although the SVM model has the highest recall score.
+- Based on the confusion matrix, it can be concluded that the model performs well in predicting employees who will not resign. However, out of  220 employees who resigned, only 126 were correctly predicted. This shows that the model still has a significant number of false negatives. Thus, although the model is quite good overall, it tends to be more effective in predicting employees who will not resign than those who will resign.
