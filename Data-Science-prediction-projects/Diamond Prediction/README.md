@@ -1,6 +1,8 @@
 # Diamond Prediction
 
 ## Business Understanding
+### Background
+### Purpose
 ## Data Understandings
 
 This dataset contains information about various type of diamonds, which have a number of features to describe the characteristics of each diamond related to the prediction process in the dataset. The following is an explanation of each contained in this dataset. [Link](https://www.kaggle.com/datasets/shivam2503/diamonds/data)
@@ -19,7 +21,15 @@ This dataset contains information about various type of diamonds, which have a n
 |      Depth      |       Float      | Total depth percentage= z/mean(x,y)=2*z/x+y                                                  |
 |      Table      |       Float      | Width of top diamond relative to widest point                                                |
 ## Data Preparation
-## Data Modelling
+## Modelling
+
+In this project, several algorithms were used for regression testing and evaluation purposes, such as:
+
+1. Linear Regression
+2. Random Forest
+3. SVM
+4. Decision TREE
+
 ## Evaluation
 
 The following is an evaluation of each algorithm used:
