@@ -3,6 +3,9 @@
 ## Business Understanding
 ### Background
 ### Purpose
+
+This project focuses on building a machine learning model to predict diamond prices based on diamond charateristics and quality, with goal of generating accurate and reliable price estimates based on optimal metric evaluation.
+
 ## Data Understandings
 
 This dataset contains information about various type of diamonds, which have a number of features to describe the characteristics of each diamond related to the prediction process in the dataset. The following is an explanation of each contained in this dataset. [Link](https://www.kaggle.com/datasets/shivam2503/diamonds/data)
@@ -27,9 +30,48 @@ Key Findings:
 - Based on the duplicate data identification process, it can be concluded that there are no duplicate data rows
 - Based on the results of identifying outlier data in the numeric columns, outliers were found in the carat, depth, table, price, x, y and z columns, thus requiring the handling of such outlier data
 
-## EDA
+### EDA
 
+The following is a visualization of this project:
+
+1. Categorical Distribution
+
+   ![Visualization1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Kategorikal%20Distribution.png)
+
+   Insight:
+
+2. Carat vs Cut
+
+   ![Visualization2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Carat%20vs%20Cut.png)
+
+   Insight:
+
+   Based on the Carat vs Cut visualisation, diamonds with an Ideal cut tend to have a lower carat weight than other categories. Meanwhile, the Fair and Premium       categories show a higher median carat weight than Ideal and Very Good. This indicates that diamond size (carat) is not directly proportional to cut quality,       meaning that both are independent features that are equally important in predicting diamond prices.
+4. Color vs Clarity
+
+   ![Visualization3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Color%20vs%20Clarity.png)
+
+   Insight:
+   
+
+6. Color vs Cut
+
+   ![Visualization4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Color%20vs%20Cut.png)
+
+   Insight:
+   
+
+8. Cut vs Clarity
+
+   ![Visualization5](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Cut%20vs%20Clarity.png)
+
+9. Cut vs Quality
+
+   ![Visualization6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/cut%20vs%20Quality.png)
+
+   Insight
 ## Data Preparation
+
 
 ## Modelling
 
@@ -60,4 +102,6 @@ The following is an evaluation of each algorithm used:
 |   Random Forest       |   189.021   | 115020.735  |    0.983   |
 |     SVM               |  1952.409   | 7522209.915 |   -0.117   |
 |   Decision Tree       |   251.154   |  213275.198 |    0.968   |
+
+## Conclusion 
 
