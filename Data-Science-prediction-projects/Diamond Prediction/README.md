@@ -40,6 +40,7 @@ The following is a visualization of this project:
 
    Insight:
 
+   Based on this visualisation, it can be seen that diamonds with an Ideal cut category are the most prevalent in the dataset, followed by the Premium category.      In the colour column visualisation, diamonds with a G colour have the highest number compared to other colours, while J colour diamonds are the least              prevalent. Meanwhile, in the clarity column, the SI1 category is the most dominant compared to other categories.
 2. Carat vs Cut
 
    ![Visualization2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Carat%20vs%20Cut.png)
@@ -47,29 +48,35 @@ The following is a visualization of this project:
    Insight:
 
    Based on the Carat vs Cut visualisation, diamonds with an Ideal cut tend to have a lower carat weight than other categories. Meanwhile, the Fair and Premium       categories show a higher median carat weight than Ideal and Very Good. This indicates that diamond size (carat) is not directly proportional to cut quality,       meaning that both are independent features that are equally important in predicting diamond prices.
-4. Color vs Clarity
+3. Color vs Clarity
 
    ![Visualization3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Color%20vs%20Clarity.png)
 
    Insight:
-   
-
-6. Color vs Cut
+   Based on the Visualisation of Colour vs Clarity, diamonds with G and E colours are the most numerous in almost all clarity categories, indicating that these       two colours are the most common in the dataset. Furthermore, in each colour category (D to J), SI1 and VS2 clarity grades consistently dominate over other         clarity grades, indicating that diamonds with medium clarity are the most widely availab
+ 
+4. Color vs Cut
 
    ![Visualization4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Color%20vs%20Cut.png)
 
    Insight:
-   
 
-8. Cut vs Clarity
+   Based on the Colour vs Cut visualisation, diamonds with a G colour have the largest distribution compared to other colours. In addition, in each colour            category, Fair cut diamonds have the smallest number compared to other cut categories. Meanwhile, Ideal and Premium cuts show the highest distribution in          almost all colour categories compared to other cuts.
+5. Cut vs Clarity
 
    ![Visualization5](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Cut%20vs%20Clarity.png)
 
-9. Cut vs Quality
+   Insight:
+
+   Based on the visualisation of Clarity VS Cut, diamonds with an ideal cut have the highest number across almost all clarity grades, especially in the SI1 and       VS2 categories. This shows that most diamonds in the dataset have good cut quality with medium clarity.  In addition, across all cut types (ideal, premium,        very good, good, and fair), the SI1 clarity category consistently has the highest number compared to other clarity categories.
+
+6. Cut vs Quality
 
    ![Visualization6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/cut%20vs%20Quality.png)
 
-   Insight
+   Insight:
+
+   Based on the visualisation Comparison of Diamond Dimension y across Cut Grades, all cut categories have relatively similar median values. In the visualisation     Comparison of Diamond Price across Cut Grades, the Premium cut category shows a higher median price than other categories. Meanwhile, in the visualisation         Comparison of Diamond Dimension z across Cut Grades, the Fair cut has the highest median compared to other cuts. In addition, in the visualisation Comparison      of Diamond Dimension x across Cut Grades, the Premium cut has the highest median compared to other cut categories.
 ## Data Preparation
 
 
