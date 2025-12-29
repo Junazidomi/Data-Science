@@ -41,6 +41,7 @@ The following is a visualization of this project:
    Insight:
 
    Based on this visualisation, it can be seen that diamonds with an Ideal cut category are the most prevalent in the dataset, followed by the Premium category.      In the colour column visualisation, diamonds with a G colour have the highest number compared to other colours, while J colour diamonds are the least              prevalent. Meanwhile, in the clarity column, the SI1 category is the most dominant compared to other categories.
+   
 2. Carat vs Cut
 
    ![Visualization2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Carat%20vs%20Cut.png)
@@ -48,12 +49,13 @@ The following is a visualization of this project:
    Insight:
 
    Based on the Carat vs Cut visualisation, diamonds with an Ideal cut tend to have a lower carat weight than other categories. Meanwhile, the Fair and Premium       categories show a higher median carat weight than Ideal and Very Good. This indicates that diamond size (carat) is not directly proportional to cut quality,       meaning that both are independent features that are equally important in predicting diamond prices.
+   
 3. Color vs Clarity
 
    ![Visualization3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diamond%20Prediction/Picture/Color%20vs%20Clarity.png)
 
    Insight:
-   Based on the Visualisation of Colour vs Clarity, diamonds with G and E colours are the most numerous in almost all clarity categories, indicating that these       two colours are the most common in the dataset. Furthermore, in each colour category (D to J), SI1 and VS2 clarity grades consistently dominate over other         clarity grades, indicating that diamonds with medium clarity are the most widely availab
+   Based on the Visualisation of Colour vs Clarity, diamonds with G and E colours are the most numerous in almost all clarity categories, indicating that these       two colours are the most common in the dataset. Furthermore, in each colour category (D to J), SI1 and VS2 clarity grades consistently dominate over other         clarity grades, indicating that diamonds with medium clarity are the most widely available
  
 4. Color vs Cut
 
@@ -77,8 +79,24 @@ The following is a visualization of this project:
    Insight:
 
    Based on the visualisation Comparison of Diamond Dimension y across Cut Grades, all cut categories have relatively similar median values. In the visualisation     Comparison of Diamond Price across Cut Grades, the Premium cut category shows a higher median price than other categories. Meanwhile, in the visualisation         Comparison of Diamond Dimension z across Cut Grades, the Fair cut has the highest median compared to other cuts. In addition, in the visualisation Comparison      of Diamond Dimension x across Cut Grades, the Premium cut has the highest median compared to other cut categories.
+   
 ## Data Preparation
 
+The data preparation process is as follows:
+
+1. Outlier Handling
+   
+   At this stage, the outlier handling process is applied to columns of a numeric type. After identfying outliers using Interquartile Range (IQR), rows of data indicated as outliers deleted (dropped)
+   
+2. Drop Column
+   In this section, the ‘Unnamed: 0’ column is removed because it is the index of the dataset. Furthermore, this column does not contain relevant information and does not affect the quality of the modelling.
+   
+3. Encoding
+   
+   At this stage, categorical data is converted into numerical data so that it can be used in the training and modelling process. The encoding technique used is ordinal encoding, because the categorical variables used have ordinal properties.
+
+4. Split the train data and test data
+   In this section, train data and test data are split using the sklearn train_test_split library to split dependent data and independent data, which are then processed.
 
 ## Modelling
 
