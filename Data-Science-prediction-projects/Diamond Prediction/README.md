@@ -107,18 +107,18 @@ In this project, several algorithms were used for regression testing and evaluat
 
 1. Linear Regression
 
-   Linear Regression is a data analysis technique that predicts unknown data values using other related and known data values mathematically model unknown or dependent variables and known or independent variables as linear equations.
+   Linear Regression is a data analysis technique that predicts unknown data values using other related and known data values mathematically model unknown or         dependent variables and known or independent variables as linear equations.
 2. Random Forest
 
-   Random Forest is an ensemble learning-based machine learning method that combines multiple decision tree to predict continous numerical values by averaging the predictions from each tree to improve accuracy and stability, as well as reduce overfitting.
+   Random Forest is an ensemble learning-based machine learning method that combines multiple decision tree to predict continous numerical values by averaging the    predictions from each tree to improve accuracy and stability, as well as reduce overfitting.
    
 3. SVM Regression 
 
-   Support Vector Machine (SVM) Regression is a supervised learning algorithm  used to predict the value of continuous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane between the hyperlane and the boundary line).
+   Support Vector Machine (SVM) Regression is a supervised learning algorithm  used to predict the value of continuous variables. The basic objective of the SVR      algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the         hyperlane between the hyperlane and the boundary line).
    
 4. Decision Tree
 
-Decision Tree is a machine learning that builds a predictive tree model to predict continuous numerical values by recursively dividing the dataset based on rules or data features until it reaches the leaf node containing the final prediction value, usually the average of the data groups in that leaf.
+   Decision Tree is a machine learning that builds a predictive tree model to predict continuous numerical values by recursively dividing the dataset based on        rules or data features until it reaches the leaf node containing the final prediction value, usually the average of the data groups in that leaf.
 
 ## Evaluation
 
