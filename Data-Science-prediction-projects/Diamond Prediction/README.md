@@ -2,6 +2,9 @@
 
 ## Business Understanding
 ### Background
+
+Diamond prices are influenced by various factors such as carat, cut, colour, and clarity, which make the pricing process complex and potentially subjective. These differences in characteristics can lead to significant price variations, requiring a more accurate and objective method for predicting diamond prices. By utilising historical data and a machine learning approach, the Diamond Price Prediction project was developed to study the relationship between diamond characteristics and market prices, with the aim of helping to generate more accurate price predictions and supporting decision-making for industry players and consumers.
+
 ### Purpose
 
 This project focuses on building a machine learning model to predict diamond prices based on diamond charateristics and quality, with goal of generating accurate and reliable price estimates based on optimal metric evaluation.
