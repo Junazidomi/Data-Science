@@ -133,3 +133,4 @@ The following is an evaluation of each algorithm used:
 
 ## Conclusion 
 
+After the model training process, Random Forest showed the best performance in predicting diamond prices with an R² value of 0.983, which was higher than the other models. Meanwhile, the Support Vector Machine (SVM) model was unable to predict well, as indicated by an R² value of -0.117, making it unsuitable for use in diamond price prediction.
