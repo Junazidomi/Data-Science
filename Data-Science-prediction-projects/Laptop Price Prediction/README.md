@@ -1,0 +1,60 @@
+# Laptop Price Prediction
+
+## Business Understanding
+### Background
+### Purpose
+## Data Understandings
+
+This dataset emulates laptop prices, capturing various features commonly associated with laptops and their corresponding simulated prices. The dataset encompasses key attribute such as brand, processor speed, RAM size, storage capacity, screen size and weight. The following is an explanation of each contained in this dataset. [Dataset](https://www.kaggle.com/datasets/mrsimple07/laptoppriceprediction)
+|     Feature     |     Data Type   |  Description                                                                             | 
+|-----------------|-----------------|------------------------------------------------------------------------------------------|
+|      Brand      |      String     |Represents the laptop brand.                                                              |
+| Processor Speed |       Float     | Indicates the speed of the laptop's processor generated uniformly between 1.5 and 40 GHz |
+|   RAM_Size      |        Int      | Represents the random selection of RAM sizes.                                            |
+|Storage_Capacity |        Int      | Simulates different storage capacities.                                                  |
+|   Screen_Size   |       Float     | Represents the size of the laptop screnn                                                 |
+|      Weight     |       Float     | Indicates the weight of the laptop in kilograms                                          |
+|      Price      |       Float     | Represents laptop price                                                                  |
+
+Key Findings
+
+- 
+### EDA 
+## Data Preparation
+
+1. Encode
+
+   
+2. Normalization
+   
+5. Split the train data and test data
+
+   
+## Modelling
+
+In this project, several algorithms were used for regression testing and evaluation purposes, such as:
+
+1. Linear Regression
+
+   Linear Regression is a data analysis technique that predicts unknown data values using other related and known data values mathematically model unknown or dependant variables and known or independent variables as linear equations.
+   
+2. Random Forest
+
+   Random Forest is an ensemble learning-based machine learing method that combines multiple decision tree to predict continuous numerical values by averaging the predictions from each tree to improve accuracy and stability, as well as reduce overfitting.
+3. Decision Tree
+   Decision Tree is a machine learning that builds a predictive tree model to predict continuous numerical values by recursively dividing the dataset based on rules or data features until it reaches the leaf node containing the final prediction value, usually the average of the data groups in that leaf.
+4. SVM
+   Support Vector Machine (SVM) Regression is a supervised learning algorithm used to predict the value of continuous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane between the hyperlane and the boundary line).
+
+
+## Evaluation
+The following is an evaluation of each algorithm:
+
+|       Algorithm         |       MAE       |       MSE       |       R2      |
+|-------------------------|-----------------|-----------------|---------------|
+| Linear Regression       | 145.272350      | 31.969,58       |  0.999648     |
+| Random Forest           | 163.792227      | 40.617,91       |  0.999553     |
+| Decision Tree           | 225.440922      | 79.515,84       |  0.999124     |
+| SVM                     | 7925.300530     | 94.436.640      |  -0.040091    |
+
+## Conclusion
