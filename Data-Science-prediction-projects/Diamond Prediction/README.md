@@ -99,6 +99,7 @@ The data preparation process is as follows:
    At this stage, categorical data is converted into numerical data so that it can be used in the training and modelling process. The encoding technique used is ordinal encoding, because the categorical variables used have ordinal properties.
 
 4. Split the train data and test data
+   
    In this section, train data and test data are split using the sklearn train_test_split library to split dependent data and independent data, which are then processed.
 
 ## Modelling
