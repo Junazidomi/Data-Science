@@ -18,7 +18,9 @@ This dataset emulates laptop prices, capturing various features commonly associa
 
 Key Findings
 
-- 
+- The dataset contains of 7 numerical features (Prcessor_Speed, RAM_Size, Storage_Capacity, Screen_Size, Weight, Price) and 1 categorical features (Brand), with a total of 1000 rows
+- Based on the results of missing data identification in the dataset, there are no rows or columns with missing values
+- Based on the duplicate data identification process, it can be concluded there are 
 ### EDA 
 ## Data Preparation
 
