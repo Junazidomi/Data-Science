@@ -3,6 +3,9 @@
 ## Business Understanding
 ### Background
 ### Purpose
+
+The objective of the project to predict laptop prices based on specifications is to develop a system capable of predicting laptop prices for users who wish to purchase laptops based on their characteristics or specifications.
+
 ## Data Understandings
 
 This dataset emulates laptop prices, capturing various features commonly associated with laptops and their corresponding simulated prices. The dataset encompasses key attribute such as brand, processor speed, RAM size, storage capacity, screen size and weight. The following is an explanation of each contained in this dataset. [Dataset](https://www.kaggle.com/datasets/mrsimple07/laptoppriceprediction)
@@ -25,12 +28,52 @@ Key Findings
 ### EDA 
 
 The following is a vizualization of this project:
-1.Visualization of Laptop's Brand Sold
-2.Visualization of Type Storage Capacity
-3.
-4.
-5.
-6.
+1. Visualization of Laptop's Brand Sold
+   
+   ![Dashboard1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Laptop%20Brand.png)
+
+   Insight
+   
+2. Visualization of Type Storage Capacity
+
+   ![Dashboard2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Storage%20Capacity.png)
+
+   Insight:
+   
+3. Visualization of Processor Speed vs Laptop Brand
+
+   ![Dashboard3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Processor%20Speed%20vs%20Laptop%20brand.png)
+
+   Insight:
+4. Visualization of RAM vs Brand
+
+   ![Dashboard4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/RAM%20VS%20Brand.png)
+
+   Insight:
+   
+5. Visualization of Laptop's Weight vs Brand
+   
+   ![Dashboard5](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/laptop%20weight%20vs%20brand.png)
+
+   Insight:
+   
+6. Visualization of Laptop Price vs Brand
+
+   ![Dashboard6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/laptop%20price%20vs%20brand.png)
+
+   Insight:
+   
+7. Visualization of Screen Size vs Brand
+
+   ![Dashboard7](github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/screen%20size%20vs%20brand.png?raw=true)
+
+   Insight:
+   
+8. Heatmap of Numerical Feature
+
+   ![Dashboard8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Heatmap.png)
+
+   Insight
 ## Data Preparation
 
 1. Encoding
