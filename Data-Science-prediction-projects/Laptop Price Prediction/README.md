@@ -7,7 +7,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The use of machine learning to predict laptop prices based on specifications, such as brand, RAM capacity, storage capacity, screen size, and weight, can make it easier for consumers to make a choice. By utilising historical data on laptops and their specifications, the prediction system can help consumers obtain recommendations for laptops with more accurate and suitable prices.
 
-Translated with DeepL.com (free version)
 ### Purpose
 
 The objective of the project to predict laptop prices based on specifications is to develop a system capable of predicting laptop prices for users who wish to purchase laptops based on their characteristics or specifications.
@@ -38,7 +37,8 @@ The following is a vizualization of this project:
    
    ![Dashboard1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Laptop%20Brand.png)
 
-   Insight
+   Insight:
+   Based on visualizations of the number of laptops sold in stores, it is known that Dell Laptops are the most widely available. Meanwhile, Lenovi and HP laptops are least available compared to other brands. 
    
 2. Visualization of Type Storage Capacity
 
@@ -46,36 +46,36 @@ The following is a vizualization of this project:
 
    Insight:
    
-3. Visualization of Processor Speed vs Laptop Brand
+4. Visualization of Processor Speed vs Laptop Brand
 
    ![Dashboard3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Processor%20Speed%20vs%20Laptop%20brand.png)
 
    Insight:
-4. Visualization of RAM vs Brand
+5. Visualization of RAM vs Brand
 
    ![Dashboard4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/RAM%20VS%20Brand.png)
 
    Insight:
    
-5. Visualization of Laptop's Weight vs Brand
+6. Visualization of Laptop's Weight vs Brand
    
    ![Dashboard5](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/laptop%20weight%20vs%20brand.png)
 
    Insight:
    
-6. Visualization of Laptop Price vs Brand
+7. Visualization of Laptop Price vs Brand
 
    ![Dashboard6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/laptop%20price%20vs%20brand.png)
 
    Insight:
    
-7. Visualization of Screen Size vs Brand
+8. Visualization of Screen Size vs Brand
 
    ![Dashboard7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/screen%20size%20vs%20brand.png)
 
    Insight:
    
-8. Heatmap of Numerical Feature
+9. Heatmap of Numerical Feature
 
    ![Dashboard8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Heatmap.png)
 
