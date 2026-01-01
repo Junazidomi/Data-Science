@@ -2,6 +2,8 @@
 
 ## Business Understanding
 ### Background
+
+
 ### Purpose
 
 The objective of the project to predict laptop prices based on specifications is to develop a system capable of predicting laptop prices for users who wish to purchase laptops based on their characteristics or specifications.
@@ -65,7 +67,7 @@ The following is a vizualization of this project:
    
 7. Visualization of Screen Size vs Brand
 
-   ![Dashboard7](github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/screen%20size%20vs%20brand.png?raw=true)
+   ![Dashboard7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/screen%20size%20vs%20brand.png)
 
    Insight:
    
