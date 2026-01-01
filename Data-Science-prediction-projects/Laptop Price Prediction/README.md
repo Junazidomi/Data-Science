@@ -20,16 +20,30 @@ Key Findings
 
 - The dataset contains of 7 numerical features (Prcessor_Speed, RAM_Size, Storage_Capacity, Screen_Size, Weight, Price) and 1 categorical features (Brand), with a total of 1000 rows
 - Based on the results of missing data identification in the dataset, there are no rows or columns with missing values
-- Based on the duplicate data identification process, it can be concluded there are 
+- Based on the duplicate data identification process, it can be concluded there are no rows with duplicate data
+- Based on the data outlier identification process, it can be concluded there are no data outlier in dataset
 ### EDA 
+
+The following is a vizualization of this project:
+1.Visualization of Laptop's Brand Sold
+2.Visualization of Type Storage Capacity
+3.
+4.
+5.
+6.
 ## Data Preparation
 
-1. Encode
+1. Encoding
 
-   
+   This process converts categorical data into numerical data to enable model training, since machine learning models require numerical input. Label Encoding is       used for this transformation.
+
 2. Normalization
+
+   Normalization is a data preprocessing technique used to convert numerical values in a dataset to a common scale for example 0 to 1. The purpose is to ensure        that no single feature (data column) dominates the others, especially when the features have very different value ranges
    
-5. Split the train data and test data
+3. Split the train data and test data
+   
+   In this section, the data are divided into training and testing sets using the train_test_split function provided by the scikit-learn library. The independent      and dependent variables are subsequently processed.
 
    
 ## Modelling
@@ -43,8 +57,10 @@ In this project, several algorithms were used for regression testing and evaluat
 2. Random Forest
 
    Random Forest is an ensemble learning-based machine learing method that combines multiple decision tree to predict continuous numerical values by averaging the predictions from each tree to improve accuracy and stability, as well as reduce overfitting.
+
 3. Decision Tree
    Decision Tree is a machine learning that builds a predictive tree model to predict continuous numerical values by recursively dividing the dataset based on rules or data features until it reaches the leaf node containing the final prediction value, usually the average of the data groups in that leaf.
+
 4. SVM
    Support Vector Machine (SVM) Regression is a supervised learning algorithm used to predict the value of continuous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane between the hyperlane and the boundary line).
 
