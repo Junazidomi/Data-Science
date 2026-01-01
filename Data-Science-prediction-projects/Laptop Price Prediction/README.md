@@ -3,7 +3,11 @@
 ## Business Understanding
 ### Background
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technological developments have accelerated, driving an increase in public demand for computing devices, particularly laptops. Laptops are important devices because they are used in various activities, such as education, work, business, and entertainment. As the number of laptop brands and specifications available on the market increases, consumers often find it difficult to choose a laptop that suits their needs and budget.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The use of machine learning to predict laptop prices based on specifications, such as brand, RAM capacity, storage capacity, screen size, and weight, can make it easier for consumers to make a choice. By utilising historical data on laptops and their specifications, the prediction system can help consumers obtain recommendations for laptops with more accurate and suitable prices.
+
+Translated with DeepL.com (free version)
 ### Purpose
 
 The objective of the project to predict laptop prices based on specifications is to develop a system capable of predicting laptop prices for users who wish to purchase laptops based on their characteristics or specifications.
