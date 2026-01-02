@@ -46,6 +46,7 @@ The following is a vizualization of this project:
 
    Insight:
    
+   
 4. Visualization of Processor Speed vs Laptop Brand
 
    ![Dashboard3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Processor%20Speed%20vs%20Laptop%20brand.png)
