@@ -46,41 +46,56 @@ The following is a vizualization of this project:
 
    Insight:
    
+   Based on the visualisation of storage capacity types in laptops sold, laptops with a capacity of 256 GB are the most common compared to other types, while         laptops with a capacity of 512 GB are the least common.
    
-4. Visualization of Processor Speed vs Laptop Brand
+3. Visualization of Processor Speed vs Laptop Brand
 
    ![Dashboard3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Processor%20Speed%20vs%20Laptop%20brand.png)
 
    Insight:
-5. Visualization of RAM vs Brand
+
+   Based on the visualisation of the relationship between laptop brands and processor speed, it was found that Asus laptops have a higher median processor speed      than other laptop brands. On the other hand, Lenovo laptops have the lowest median processor speed compared to other laptop brands on the market.
+   
+4. Visualization of RAM vs Brand
 
    ![Dashboard4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/RAM%20VS%20Brand.png)
 
    Insight:
    
-6. Visualization of Laptop's Weight vs Brand
+   Based on the visualisation of the relationship between RAM and laptop brands sold, it can be seen that almost all laptop brands have various types of RAM.         However, Acer, Lenovo, and Dell laptops have a higher median number of RAM types compared to other brands. Conversely, Asus and HP laptops have a lower median     number of RAM types.
+   
+5. Visualization of Laptop's Weight vs Brand
    
    ![Dashboard5](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/laptop%20weight%20vs%20brand.png)
 
    Insight:
+
+   Based on the visualisation of laptop weights by brand, it can be concluded that the difference in weight between brands is not particularly significant. Brand alone is not enough to determine whether a laptop is lightweight—it is more important to look at the specific series/model of each brand.
    
-7. Visualization of Laptop Price vs Brand
+6. Visualization of Laptop Price vs Brand
 
    ![Dashboard6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/laptop%20price%20vs%20brand.png)
 
    Insight:
+
+   Based on the visualisation of laptop prices by brand, it can be seen that each brand has a relatively similar median price.
    
-8. Visualization of Screen Size vs Brand
+7. Visualization of Screen Size vs Brand
 
    ![Dashboard7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/screen%20size%20vs%20brand.png)
 
    Insight:
+
+   Based on the visualisation of screen size versus laptop brand, laptop screen sizes are relatively consistent across brands, with a median screen size of around    13–14.5 inches. The greatest variation is found in Asus and Lenovo, while HP has the most limited screen variation.
    
-9. Heatmap of Numerical Feature
+8. Heatmap of Numerical Feature
 
    ![Dashboard8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Laptop%20Price%20Prediction/Picture/Heatmap.png)
 
-   Insight
+   Insight:
+
+   Based on the heatmap visualisation of numerical features, it can be seen that weight is related to price, as well as screen size, although the correlation         value is relatively low.
+
 ## Data Preparation
 
 1. Encoding
@@ -126,3 +141,5 @@ The following is an evaluation of each algorithm:
 | SVM                     | 7925.300530     | 94.436.640      |  -0.040091    |
 
 ## Conclusion
+
+Based on the model evaluation results, it was found that almost all algorithms performed well in predicting laptop prices, except for SVM. The Linear Regression model showed the best performance with an R² value of 0.999648, while SVM had an R² value of −0.040091. The negative R² value for SVM indicates that the model is unable to recognise data patterns well, making it ineffective in predicting laptop prices.
