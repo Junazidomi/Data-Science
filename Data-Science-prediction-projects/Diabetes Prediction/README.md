@@ -2,6 +2,11 @@
 
 ## Businees Understanding
 ### Background
+
+Diabetes is one of the chronic diseases that continues to increase worldwide. This disease occurs when the human body experiences disturbances in regulating blood sugar levels, causing serious complications such as heart disease, kidney failure, and others. Therefore, early detection in predicting diabetes is very important in preventing this disease.
+
+With the advancement of technology, particularly in the field of machine learning, large amounts of patient health data can be utilised to assist in the diagnosis of diseases. By utilising patient health history data, such as age, gender, medical history, and other supporting factors, machine learning models are able to learn patterns related to diabetes status.
+
 ### Purpose
 
 The purpose of this project is to build a machine learning model that can predict diabetes in patients based on their previous medical history data and assist medical professionals in identifying diabetes to support medical decision-making.
@@ -24,7 +29,11 @@ This dataset is a collection of medical and demographic data from patients, alon
 
 Key Findings:
 
-- 1
+- The dataset in this project has 8 numerical features (age, hypertension, hearth_disease, bmi, HbA1c_level,  blood_glucose_level, and diabetes ) and 2 categorical features (gender and smoking_history )
+- From data identification in the dataset, the dataset contains two columns that 
+- Based on the missing values identification, the dataset does not contain any missing values, so no preprocessing  steps are requeired for handling missing data.
+- From the duplicate data identification, there are 3584 duplicate rows were found, which could potentially cause bias in the analysis and modelling. Therefore, these duplicates should be removed to ensure accurate results during visualization and prediction.
+- Based on the results of identifying outlier data in the numeric columns, outliers were found in the bmi, blood_glucose_level and HbA1c_level columns, thus requiring the handling of such outlier data.
 
 
 ### EDA
