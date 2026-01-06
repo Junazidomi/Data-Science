@@ -178,7 +178,7 @@ The data preparation process is as follows:
 
    Random Forest is a widely used machine learning algorithm that combines the results of several decision trees to achieve a single result that is easy to use and flexible
    
-3. Decisin Tree
+3. Decision Tree
 
    Decision trees are supervised, non-parametric learning algorithms that  have a hierarchical tree structure, consisting of root nodes, branches, internal nodes, and leaf nodes.
    
