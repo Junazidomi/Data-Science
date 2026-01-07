@@ -44,6 +44,8 @@ Key Findings:
 
    Insight:
 
+   Based o
+
 3. Visualization of Gender Patients
 
    ![Visualization2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Gender.png)
