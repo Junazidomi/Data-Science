@@ -30,7 +30,7 @@ This dataset is a collection of medical and demographic data from patients, alon
 Key Findings:
 
 - The dataset in this project has 8 numerical features (age, hypertension, hearth_disease, bmi, HbA1c_level,  blood_glucose_level, and diabetes ) and 2 categorical features (gender and smoking_history )
-- From data identification in the dataset, the dataset contains two columns that 
+- Based on the results of dataset identification, two problematic were found. The age column has values less than 0, which causes inaccurate data because it is imposibble for diabetes patients to be less than 0 years old or the same age as baby. In addition, the gender column contains the unique value ‘Other’, so adjustments or changes to the data are necessary.
 - Based on the missing values identification, the dataset does not contain any missing values, so no preprocessing  steps are requeired for handling missing data.
 - From the duplicate data identification, there are 3584 duplicate rows were found, which could potentially cause bias in the analysis and modelling. Therefore, these duplicates should be removed to ensure accurate results during visualization and prediction.
 - Based on the results of identifying outlier data in the numeric columns, outliers were found in the bmi, blood_glucose_level and HbA1c_level columns, thus requiring the handling of such outlier data.
