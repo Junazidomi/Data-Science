@@ -44,73 +44,94 @@ Key Findings:
 
    Insight:
 
-   Based o
+   Based on the visualisation of diabetes status, it was found that there were more people who did not have diabetes than those who did. In addition, because this column is an unbalanced target column, oversampling or undersampling must be performed. 
 
-3. Visualization of Gender Patients
+2. Visualization of Gender Patients
 
    ![Visualization2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Gender.png)
 
    Insight:
 
-5. Vizualization of Smoking History
+   Based on the visualisation of patient gender, it was found that the majority of patients were female. In addition, there was a unique value of ‘Other’ in the gender column, so data preprocessing was necessary to clean the data and make it usable in the model training process.
+   
+3. Vizualization of Smoking History
 
    ![Visualization3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Smoking%20History.png)
 
    Insight:
+
+   Based on the visualization of patient's smoking history status, it can be seen the number of patients in the "No Info" category is the highest than other category, followed by patients who have never smoked. In addition, the number of patients with a history of smoking is relatively lower than in other categories
    
-7. Visualization of Hypertension Status
+4. Visualization of Hypertension Status
 
    ![Visualization4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Hypertension.png)
 
    Insight:
+   Based on the visualisation of hypertension status, there are fewer patients with hypertension than patients without hypertension.
    
-9. Visualization of Heart Disease
+5. Visualization of Heart Disease
 
     ![Visualization5](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Heart%20Disease.png)
 
    Insight:
+
+   Based on the visualisation of heart disease status, it was found that the number of patients with heart disease was lower than the number of patients without heart disease.
    
-11. Visualization of Diabetes Status VS Medical Checkup
+6. Visualization of Diabetes Status VS Medical Checkup
 
     ![Visualization6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Diabetes%20Status%20vs%20medical%20checkup.png)
 
     Insight:
-    
-13. Visualization of Hearth Disease VS Medical Checkup
+
+    Based on the visualisation of the relationship between diabetes status and medical check-up results, there are significant differences between patients with diabetes and those without diabetes. These differences can be observed in the variables of blood glucose level, BMI, and HbA1c, where patients with diabetes have higher values than patients without diabetes. In addition, patients who are susceptible to or have diabetes have a median age in the range of 50–70 years.
+   
+7. Visualization of Hearth Disease VS Medical Checkup
 
     ![Visualization7](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Heart%20Disease%20vs%20Medical%20Checkup.png?raw=true)
 
     Insight:
-    
-15. Visualization of Hypertension Status VS Medical Checkup
+
+    Based on the visualisation of the relationship between heart disease and medical check-up results, it was found that patients suffering from heart disease were generally in the 60–80 age range. In addition, patients with heart disease had a slightly higher median BMI than patients without heart disease.
+   
+8. Visualization of Hypertension Status VS Medical Checkup
     
     ![Visualization8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Hypertension%20vs%20medical%20checkup.png)
 
     Insight:
-    
-17. Visualization of Hearth Disease VS Diabetes Status
+
+    Based on the visualisation of the relationship between hypertension status and medical check-up results, it was found that patients with hypertension had a median age in the range of 60–80 years. In addition, patients with hypertension tended to have higher median BMI, HbA1c, and blood glucose levels compared to patients without hypertension.
+   
+9. Visualization of Hearth Disease VS Diabetes Status
 
     ![Visualization9](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Heart%20vs%20Diabetes.png?raw=true)
 
     Insight:
+
+    Based on the visualisation of the relationship between heart disease and diabetes status, it can be seen that the number of patients with diabetes is higher in the group of patients without heart disease. This is due to the dominance of patients without heart disease in the dataset. Meanwhile, the number of diabetic patients in the group with heart disease is relatively lower.
     
-19. Visualization of Hypertension VS Diabetes Status
+10. Visualization of Hypertension VS Diabetes Status
 
     ![Visualization10](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Hypertension%20vs%20Diabetes.png)
 
     Insight:
+
+    Based on the visualisation of the relationship between hypertension status and diabetes status, it can be seen that the number of patients with diabetes is higher in the group of patients without hypertension. This is due to the dominance of patients without hypertension in the dataset. Meanwhile, the number of diabetic patients in the group with hypertension is relatively lower.
     
-21. Visualization of Smoking History VS Diabetes
+11. Visualization of Smoking History VS Diabetes
 
     ![Visualization11](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Smoking%20history%20vs%20Diabetes.png)
 
     Insight:
+
+    Based on the visualisation of smoking history versus diabetes status, the highest number of diabetes cases was found among patients who had never smoked. Meanwhile, patients who had smoked had the lowest diabetes rate compared to other smoking categories.
     
-23. Visualization of Numerical Feature
+12. Visualization of Numerical Feature
 
     ![Visualuzation12](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Picture/Heatmap.png)
 
     Insight:
+
+    Based on the visualisation of the correlation between numerical features, age has a higher correlation with BMI than the correlation between numerical features. Furthermore, none of the correlations between numerical features have negative values.
     
 ## Data Preparation
 
@@ -182,11 +203,15 @@ There are several confusion metrics can predict diabetes status of patient. Such
    
    ![Metric](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Metric/RF%20Test.png)
    
-3. SVM
+2. SVM
 
    ![Metric1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Metric/SVM%20Test.png)
    
-5. Random Forest (After Hypertune Parameter)
+3. Random Forest (After Hypertune Parameter)
 
    ![Metric2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Diabetes%20Prediction/Metric/RF%20Hypertune%20parameter%20Test.png)
-   
+
+## Conculusion
+- Based on the results of data analysis, patients with diabetes tend to have higher blood sugar levels and BMI compared to patients without diabetes. In addition, patients who are susceptible to or suffer from diabetes are generally between the ages of 55 and 70. The results of the analysis also show a link between diabetes and heart disease and hypertension.
+- The best models for making predictions are Random Forest, Random Forest (After Hypertune parameter) and SVM.
+- After hyperparameter tuning was performed on the Decision Tree and Random Forest, it was found that the R2 values for both algorithms decreased, while the recall values actually increased
