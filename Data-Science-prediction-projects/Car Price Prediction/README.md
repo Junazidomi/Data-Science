@@ -34,11 +34,40 @@ This dataset contains information about various cars, including features that ca
 
 Key Findings:
 - s
-- 
+
+#### EDA
+
+1. Visualization of Manufactured Cars Sold
+2. Visualization of Car Models for Sale
+3. Visualization of Car Production by Year
+4. Visualization of Car Categories
+5. Visualization of Car Fuel Types
+6. Visualization of Car Door Types
+7. Visualization of Car Cyclinder Type
+8. Visualization of Car Colour Types
+9. Visualization of Car Gearbox Types
+10. Visualization of Car Wheel Types
+11. Visualisation of a leather-interior car
+12. Visualization of Top 10 Manufactured Car by Price
+13. Visualization of Top 10 Model by Price
+    
 ## Data Preparation
+
+The data preparation process is as follows:
+
+1. Drop Irrelevant Column
+2. Fix Column Type
+3. Drop Missing Data
+4. Drop Duplicate Data
+5. Fix Column Type
+6. Drop Irrelevant Value in Column
+7. Encoding
+8. Split the Training Data and Test Data
+   
 ## Modelling
 
 In this project, several algorithms for regression evaluation purpose such as:
+
 1. Linear Regression
 
    Linear Regression is a data analysis technique that predicts unknown data values using other related and known data values mathematically model unknown or dependent variables and known for independent variables as linear equations
@@ -56,6 +85,8 @@ In this project, several algorithms for regression evaluation purpose such as:
    Support Vector Machine (SVM) Regression is a supervised learning algorithm used to predict the value of continuous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane between the hyperlane and the boundary line).
  
 5. XGBoost Regressor
+
+   XGBoost uses ensemble learning techniques, which combine predictions from multiple models to improve overall performance. This approach is based on boosting techniques, where weak learners, usually simple decision trees, are combined into a strong learner.
    
 ## Evaluation
 
