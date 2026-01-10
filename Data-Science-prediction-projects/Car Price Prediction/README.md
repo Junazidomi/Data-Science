@@ -2,7 +2,11 @@
 
 ## Business Understanding
 ### Background
+
 ### Purpose
+
+The purpose of this project is to build a machine learning model to predict car prices based on car specifications from historical data, as well as to assist consumers in selecting cars in stores that match their desired specifications.
+
 ## Data Understandings
 
 This dataset contains information about various cars, including features that can affect the selling price of a car which can bulid regression models based on technical specifications and other features. [Dataset](https://www.kaggle.com/datasets/deepcontractor/car-price-prediction-challenge)
@@ -27,16 +31,32 @@ This dataset contains information about various cars, including features that ca
 |     Wheel       |      String       | The steering wheel position                                            |
 |     Color       |      String       | The exterior color of the car                                          |
 |    Airbags      |       Int         | the total number of airbags in the car                                 |
- 
+
+Key Findings:
+- s
+- 
 ## Data Preparation
 ## Modelling
 
 In this project, several algorithms for regression evaluation purpose such as:
 1. Linear Regression
+
+   Linear Regression is a data analysis technique that predicts unknown data values using other related and known data values mathematically model unknown or dependent variables and known for independent variables as linear equations
+   
 2. Random Forest
+
+   Random Forest is a machine learning algorithm that combines the outputs of several decision trees to produce more accurate predictions, particularly in regression problems.
+   
 3. Decision Tree
+
+   Decision tree is a machine learning algorithm in the form of a tree structure consisting of nodes that represent decisions and branches that represent the consequences of those decisions. Each node in a decision tree represents a variable in the dataset that influences the decision and its consequences.
+   
 4. SVM
+
+   Support Vector Machine (SVM) Regression is a supervised learning algorithm used to predict the value of continuous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane between the hyperlane and the boundary line).
+ 
 5. XGBoost Regressor
+   
 ## Evaluation
 
 The following is an evaluation of each algorithms used:
