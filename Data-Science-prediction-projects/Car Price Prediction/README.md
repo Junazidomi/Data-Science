@@ -38,18 +38,82 @@ Key Findings:
 #### EDA
 
 1. Visualization of Manufactured Cars Sold
+   
+   ![Viz](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Manufacturer.png)
+
+   Insight:
+   
 2. Visualization of Car Models for Sale
+
+   ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Model.png)
+
+   Insight:
+   
 3. Visualization of Car Production by Year
+
+   ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Year.png)
+
+   Insight:
+   
 4. Visualization of Car Categories
+
+   ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Car%20Category.png)
+
+   Insight:
+   
 5. Visualization of Car Fuel Types
+
+   ![Viz2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Fuel%20Type.png)
+   
 6. Visualization of Car Door Types
+
+   ![Viz3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Doors%20Type.png)
+
+   Insight:
+   
 7. Visualization of Car Cyclinder Type
+
+   ![Viz3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Cyclinder.png)
+
+   Insight:
+   
 8. Visualization of Car Colour Types
+
+   ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Colour.png)
+
+   Insight:
+   
 9. Visualization of Car Gearbox Types
+
+    ![Viz6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Gearbox%20Type.png)
+
+   Insight:
+   
 10. Visualization of Car Wheel Types
+
+    ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Wheels%20Type.png)
+
+    Insight:
+    
 11. Visualisation of a leather-interior car
+
+    ![Viz8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Leather%20Interior.png)
+
+    Insight:
+    
 12. Visualization of Top 10 Manufactured Car by Price
+
+    ![Viz7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Manufacturer%20by%20Price.png)
+
+    Insight:
+    
+    
 13. Visualization of Top 10 Model by Price
+
+    ![Viz9](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Model%20by%20Price.png)
+
+    Insight:
+    
     
 ## Data Preparation
 
