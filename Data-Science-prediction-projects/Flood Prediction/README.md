@@ -3,11 +3,21 @@
 ## Business Understanding
 ### Background
 
+Flooding is one of the most frequent natural disasters and has a significant impact on social, economic and environmental life. Increased rainfall intensity due to climate change, population growth, land use change and inadequate drainage systems are the main factors that increase the risk of flooding, especially in urban areas and river basins.
+
+Until now, flood management has tended to be reactive, taking place after the disaster has occurred. This often results in delayed evacuations, significant material losses, and an increased risk of casualties. Therefore, a more proactive approach is needed through the development of a flood prediction system that can provide early warnings and support more effective decision-making.
+
+With technological developments, particularly in the fields of data science and machine learning, there are opportunities to build more accurate flood prediction models. By utilising historical data such as rainfall, river water levels, soil conditions, and land use, flood prediction systems can identify patterns and predict the potential for flooding before it occurs.
+
+The Flood Prediction Project aims to develop a flood prediction system that can assist the government and the community in disaster mitigation, thereby minimising the impact and damage caused by floods.
+
 ### Purpose
 
 The purpose of this project is to build a machine learning model capable of predictappropriate action when floods occur.ing floods based on historical data, in order to help communities and authorities in carrying out mitigation measures, evacuations, and taking 
 
 ## Data Understanding
+
+This dataset consists of historical data related to flood probability, geographical conditions, and rainfall data. The dataset aims to support the development of machine learning models to predict the probability of flooding, thereby assisting the government in reducing potential losses and providing an early warning system for flood disasters. [Dataset](https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset)
 
 |              Features           |      Data Type      |                                                       Description                                                                  |
 |---------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------| 
@@ -100,4 +110,5 @@ The following is an evaluation of each algorithms used:
 - In the Linear Regression model, better performance was obtained compared to other models, with an R² value of 1 and MAE and MSE values close to 0. This indicates that the dataset has a very strong linear relationship between the independent and dependent variables.
 - In the Decision Tree model, all evaluation metric values were the lowest compared to other models, with an R2 value of around 0.1
 - In the Random Forest and Decision Tree models, after hyperparameter tuning, all evaluation metrics improved compared to before tuning.
+
 
