@@ -120,13 +120,26 @@ Key Findings:
 The data preparation process is as follows:
 
 1. Drop Irrelevant Column
+
+   In this process, irrelevant columns are removed (dropped) so that the model can work optimally and avoid performance degradation and unnecessary bias.
+   
 2. Fix Column Type
+   
+   In this process, there are several numeric columns that appear to be stored in string or text format, requiring data type correction. This is necessary to ensure that the model runs properly, avoids bias, and facilitates the preprocessing stage in the next phase.
+
 3. Drop Missing Data
+
+   In this process, missing data is dropped so that no errors occur in the modelling.
+   
 4. Drop Duplicate Data
-5. Fix Column Type
-6. Drop Irrelevant Value in Column
-7. Encoding
-8. Split the Training Data and Test Data
+   At this stage, data is first identified to detect the existence of duplicate data. Once duplicate data is found, it is deleted to prevent bias in the data and maintain data consistency and quality.
+   
+5. Mismatch Data Handling
+6. Encoding
+
+   This part of the process transforms categorical data into numerical data facilitate model training. In addition, numerical data is required for modelling. In this project, the encoding methods used are One Hot Encoder, which converts categories into binary representations so that the data can be used effectively by machine learning models.
+   
+10. Split the Training Data and Test Data
    
 ## Modelling
 
