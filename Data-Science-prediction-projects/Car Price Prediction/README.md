@@ -3,6 +3,14 @@
 ## Business Understanding
 ### Background
 
+Car prices are an important factor that influences consumer purchasing decisions, both in the new and used car markets. Car pricing is influenced by various factors, such as brand, vehicle type, year of manufacture, mileage, engine condition, features, and market trends. However, in practice, car pricing is often subjective and does not always reflect the actual market value, which can potentially harm both sellers and buyers.
+
+With the increase in car sales, especially on digital platforms, the need for an accurate and objective pricing system has become increasingly important. Inaccurate pricing can result in cars being difficult to sell, financial losses, or unfair transactions. Therefore, a system is needed that can accurately predict car prices based on data and vehicle characteristics.
+
+Technological developments in data science and machine learning have opened up opportunities to build reliable car price prediction models. By utilising historical car sales data and various vehicle attributes, machine learning models can learn the relationship patterns between car characteristics and market prices. This approach enables car price predictions to be made more objectively, consistently, and efficiently.
+
+The Project Car Price Prediction aims to develop a car price prediction system that can assist sellers, buyers, and automotive industry players in determining fair and competitive prices. With this system in place, it is hoped that the transaction process will become more transparent, efficient, and profitable for all parties.
+
 ### Purpose
 
 The purpose of this project is to build a machine learning model to predict car prices based on car specifications from historical data, as well as to assist consumers in selecting cars in stores that match their desired specifications.
@@ -42,73 +50,84 @@ Key Findings:
    ![Viz](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Manufacturer.png)
 
    Insight:
+
+   Based on the visualisation of the number of cars sold by manufacturer, it can be concluded that in the dataset there are three top car manufacturers based on the number of cars, namely Hyundai, Toyota, and Mercedes-Benz.
    
 2. Visualization of Car Models for Sale
 
    ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Model.png)
 
    Insight:
+
    
-3. Visualization of Car Production by Year
+4. Visualization of Car Production by Year
 
    ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Year.png)
 
    Insight:
+
+   Based on the visualisation of the number of cars sold by year of manufacture, it can be concluded that the most cars sold were manufactured in 2012, followed by cars manufactured in 2014 and 2013. In addition, there are also cars manufactured in the 1900s that are still being sold today.
    
-4. Visualization of Car Categories
+6. Visualization of Car Categories
 
    ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Car%20Category.png)
 
    Insight:
    
-5. Visualization of Car Fuel Types
+7. Visualization of Car Fuel Types
 
    ![Viz2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Fuel%20Type.png)
    
-6. Visualization of Car Door Types
+8. Visualization of Car Door Types
 
    ![Viz3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Doors%20Type.png)
 
    Insight:
    
-7. Visualization of Car Cyclinder Type
+9. Visualization of Car Cyclinder Type
 
    ![Viz3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Cyclinder.png)
 
    Insight:
    
-8. Visualization of Car Colour Types
+10. Visualization of Car Colour Types
 
    ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Colour.png)
 
    Insight:
+
+   Based on the visualisation of the number of cars sold by colour, it can be concluded that black cars have the highest number of cars compared to other colours. In addition, white and silver cars also have a relatively high number of cars after black. Meanwhile, pink cars are the colour with the fewest number of cars compared to other colours.
    
-9. Visualization of Car Gearbox Types
+11. Visualization of Car Gearbox Types
 
     ![Viz6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Gearbox%20Type.png)
 
    Insight:
    
-10. Visualization of Car Wheel Types
+11. Visualization of Car Wheel Types
 
     ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Wheels%20Type.png)
 
     Insight:
+
+    Based on the visualisation of the number of cars sold by wheel type, it can be concluded that cars with Front wheel type have the largest proportion, which is around 66.9% of the total cars sold. Meanwhile, cars with Rear  wheel type have the smallest proportion compared to other categories, which is around 12%.
     
-11. Visualisation of a leather-interior car
+13. Visualisation of a leather-interior car
 
     ![Viz8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Leather%20Interior.png)
 
     Insight:
+
+    Based on the visualisation of the number of cars sold based on leather interiors, it can be concluded that cars with leather interiors are sold more than cars without leather interiors.
     
-12. Visualization of Top 10 Manufactured Car by Price
+15. Visualization of Top 10 Manufactured Car by Price
 
     ![Viz7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Manufacturer%20by%20Price.png)
 
     Insight:
     
     
-13. Visualization of Top 10 Model by Price
+16. Visualization of Top 10 Model by Price
 
     ![Viz9](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Model%20by%20Price.png)
 
@@ -134,12 +153,17 @@ The data preparation process is as follows:
 4. Drop Duplicate Data
    At this stage, data is first identified to detect the existence of duplicate data. Once duplicate data is found, it is deleted to prevent bias in the data and maintain data consistency and quality.
    
-5. Mismatch Data Handling
+5. Mismatch Data Handling, after obtaining the data summary
+
+ In this process, after obtaining the data summary, inaccurate or irrelevant data are removed (dropped) because they can negatively affect the performance of the machine learning model. For example, in the Cylinder column, there are mismatched or unrealistic values such as cars with 1, 2, 9, or 14 cylinders, as well as car prices below 500, which are considered invalid and therefore excluded from the datas
+ 
 6. Encoding
 
    This part of the process transforms categorical data into numerical data facilitate model training. In addition, numerical data is required for modelling. In this project, the encoding methods used are One Hot Encoder, which converts categories into binary representations so that the data can be used effectively by machine learning models.
    
-10. Split the Training Data and Test Data
+7. Split the Training Data and Test Data
+
+    In this section, train data and test data are split using the sklearn train_test_split library to split dependent data and independent data, which are then processed
    
 ## Modelling
 
