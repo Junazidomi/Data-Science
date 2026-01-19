@@ -2,7 +2,10 @@
 
 ## Business Understanding
 ### Background
+
 ### Purpose
+
+The purpose of this project is to build a machine learning model capable of predictappropriate action when floods occur.ing floods based on historical data, in order to help communities and authorities in carrying out mitigation measures, evacuations, and taking 
 
 ## Data Understanding
 
@@ -31,26 +34,52 @@
 | Flood Probability               |         Float       |The overall probability of flooding in the region                                                                                   |
 
 Key Findings:
+- This dataset consists of 50,000 rows and 21 numeric columns, where the Flood Probability column acts as the target column with a value range of 0 to 1.
+- After identifying duplicate data, it can be concluded that there is no duplicate data in the dataset
+- After identifying missing data, it can be concluded that there are no missing values in the dataset
+- During the process of identifying outliers in the dataset, it was found that all columns contained outlier values. Therefore, an outlier handling process was required, such as normalising or standardising the data, in order to stabilise the data distribution and prevent it from interfering with the model's performance.
+
 
 ### EDA (Exploratoey Data Analysis)
 
 1. Heatmap of Numerical Feature
 
+   ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Flood%20Prediction/Picture/Heatmap.png)
+
+   Insight:
+
+   Based on the heatmap visualisation of the numerical features, all numerical features correlate with the target column, with correlation values ranging from 0.22 to 0.23. Meanwhile, the correlation between numerical features other than the target column is relatively low or insignificant, indicating that each feature tends to stand alone and does not correlate strongly with one another.
 ## Data Preparation
 
 The data preparation process is as follows:
 
-1. Normalization
-2. Split the Training Data and Test Data 
+1. Feature Scaling
+
+   Feature scaling is a preprocessing technique that aims to convert feature values into a uniform scale, so that each feature can contribute equally to the model formation process. This technique is important because differences in range, units, or magnitude between features can affect the performance of machine learning models. In this study, the feature scaling technique used is standardisation.
+   
+2. Split the Training Data and Test Data
+   
+   In this section, train data and test data are split using the sklearn train_test_split library to split dependent data and independent data, which are then processed
 
 ## Modeling
 
 In this project, several algorithms for regression evaluation purposes such as:
 
 1. Linear Regression
+
+   Linear regression is a data analysis technique that predicts unknown data values using other related and known data values. It mathematically models unknown or dependent variables and known or independent variables as linear equations.
+   
 2. Random Forest
+
+   An ensemble learning-based machine learning algorithm that combines multiple decision trees to produce more accurate and stable predictions than a single tree, working by taking random samples from data and features, then combining the results.
+   
 3. Decision Tree
+
+   A machine learning and data mining method that uses a tree-like structure to make decisions or predictions by breaking down complex data into series of simple rules.
+   
 4. SVM
+
+   a machine learning and data mining method that uses a tree-like structure to make decisions or predictions by breaking down complex data into series of simple rules.
 
 
 ## Evaluation
@@ -65,3 +94,10 @@ The following is an evaluation of each algorithms used:
 | SVM                                 | 2.017998e-02  | 6.984723e-04  | 0.719555    |
 | Random Forest (Hypertune Parameter) | 2.047603e-02  | 6.737337e-04  | 0.729488    |
 | Decision Tree (Hypertune Parameter) | 3.433849e-02  | 1.856252e-03  | 0.254693    |
+
+## Conclusion
+- Each independent variable correlates with the dependent variable, where all variables in the dataset are numerical data
+- In the Linear Regression model, better performance was obtained compared to other models, with an R² value of 1 and MAE and MSE values close to 0. This indicates that the dataset has a very strong linear relationship between the independent and dependent variables.
+- In the Decision Tree model, all evaluation metric values were the lowest compared to other models, with an R2 value of around 0.1
+- In the Random Forest and Decision Tree models, after hyperparameter tuning, all evaluation metrics improved compared to before tuning.
+
