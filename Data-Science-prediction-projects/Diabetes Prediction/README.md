@@ -150,6 +150,7 @@ The data preparation process is as follows:
    At this stage, the outlier handling process is applied to columns of a numeric type. After identfying outliers using Interquartile Range (IQR), rows of data indicated as outliers deleted (dropped)
    
 4. Encoding
+   
    This part of the process transforms categorical data into numerical data to facilitate model training.  In addition, numerical data is required for modeling. . In this project, the encoding methods used are Label Encoder, which performs encoding without regard to data order, and Ordinal Encoder, which performs encoding with regard to data order.
    
 5. Split the train data and test data
