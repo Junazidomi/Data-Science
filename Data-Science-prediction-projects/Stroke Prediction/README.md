@@ -6,4 +6,7 @@
 ## Modeling
 ## Evaluation
 
+The following is an evaluation of each algorithms used:
+
+
 ## Conclusion
