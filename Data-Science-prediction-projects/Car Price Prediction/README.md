@@ -41,7 +41,11 @@ This dataset contains information about various cars, including features that ca
 |    Airbags      |       Int         | the total number of airbags in the car                                 |
 
 Key Findings:
-- s
+- This dataset consists of 18 columns, including 5 numeric columns and 13 categorical columns, and has 19,237 rows of data, with the Price column as the target column.
+- After identifying missing data, it can be concluded that there are no missing values in the dataset.
+- After identifying duplicate data, 483 duplicate data entries were found, requiring duplicate data handling to prevent bias in the model.
+- After identifying the values in the dataset, irrelevant data was found in the cylinder column, namely values 1, 2, 9, and 14, which did not match the number of cylinders specified for cars. In addition, there was data on cars priced below 500, which was unrealistic, so it was necessary to process these values to maintain data quality.
+- After identifying outliers in the cylinder, price, and airbags columns, outliers were found in the cylinder and price columns. However, this dataset contains cars with high prices due to their high specifications, so these outliers are considered normal and no outlier handling process was performed.
 
 #### EDA
 
@@ -59,8 +63,9 @@ Key Findings:
 
    Insight:
 
+   Based on the visualisation of the top 20 car models by sales, it can be concluded that the Prius, Sonata, Camry, and Elantra models have the highest number of cars compared to other models.
    
-4. Visualization of Car Production by Year
+3. Visualization of Car Production by Year
 
    ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Year.png)
 
@@ -68,29 +73,39 @@ Key Findings:
 
    Based on the visualisation of the number of cars sold by year of manufacture, it can be concluded that the most cars sold were manufactured in 2012, followed by cars manufactured in 2014 and 2013. In addition, there are also cars manufactured in the 1900s that are still being sold today.
    
-6. Visualization of Car Categories
+4. Visualization of Car Categories
 
    ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Car%20Category.png)
 
    Insight:
+
+   Based on the visualisation of the number of cars sold by category, it can be concluded that saloon cars are the most widely available category. Meanwhile, convertibles, limousines and pick-ups are the categories with the lowest availability.
    
-7. Visualization of Car Fuel Types
+5. Visualization of Car Fuel Types
 
    ![Viz2](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Fuel%20Type.png)
+
+   Insight:
    
-8. Visualization of Car Door Types
+   Based on the visualisation of the number of cars sold by fuel type, it can be concluded that petrol cars are the most numerous compared to other fuel types. Meanwhile, hydrogen and plug-in hybrid cars are the least numerous compared to other fuel types.
+   
+6. Visualization of Car Door Types
 
    ![Viz3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Doors%20Type.png)
 
    Insight:
+
+    Based on the visualisation of the number of cars sold by door type, cars with 04-May doors are the most numerous and dominant compared to other door types. Meanwhile, cars with 02-May doors and more than >5 doors are fewer in number than cars with 4–5 doors.
    
-9. Visualization of Car Cyclinder Type
+7. Visualization of Car Cyclinder Type
 
    ![Viz3](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Cyclinder.png)
 
    Insight:
+
+    Based on the visualisation of the number of cars sold by cylinder count, it can be concluded that cars with 4 cylinders are the most common. However, the dataset contains unrealistic cylinder counts, such as 1, 2, 9, and 14 cylinders, which do not correspond to typical car specifications. Therefore, data rows with these cylinder counts need to be deleted (dropped) to maintain data quality.
    
-10. Visualization of Car Colour Types
+8. Visualization of Car Colour Types
 
    ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Colour.png)
 
@@ -98,13 +113,15 @@ Key Findings:
 
    Based on the visualisation of the number of cars sold by colour, it can be concluded that black cars have the highest number of cars compared to other colours. In addition, white and silver cars also have a relatively high number of cars after black. Meanwhile, pink cars are the colour with the fewest number of cars compared to other colours.
    
-11. Visualization of Car Gearbox Types
+9. Visualization of Car Gearbox Types
 
     ![Viz6](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Gearbox%20Type.png)
 
    Insight:
+
+   Based on the visualisation of the number of cars sold by gearbox type, it can be concluded that cars with automatic gearboxes are the most sold compared to other types, accounting for more than half of the total cars sold. Meanwhile, cars with variator gearboxes have the lowest sales compared to other gearbox types.
    
-11. Visualization of Car Wheel Types
+10. Visualization of Car Wheel Types
 
     ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Wheels%20Type.png)
 
@@ -112,7 +129,7 @@ Key Findings:
 
     Based on the visualisation of the number of cars sold by wheel type, it can be concluded that cars with Front wheel type have the largest proportion, which is around 66.9% of the total cars sold. Meanwhile, cars with Rear  wheel type have the smallest proportion compared to other categories, which is around 12%.
     
-13. Visualisation of a leather-interior car
+11. Visualisation of a leather-interior car
 
     ![Viz8](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Leather%20Interior.png)
 
@@ -120,19 +137,21 @@ Key Findings:
 
     Based on the visualisation of the number of cars sold based on leather interiors, it can be concluded that cars with leather interiors are sold more than cars without leather interiors.
     
-15. Visualization of Top 10 Manufactured Car by Price
+12. Visualization of Top 10 Manufactured Car by Price
 
     ![Viz7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Manufacturer%20by%20Price.png)
 
     Insight:
     
+    Based on the visualisation of the top 15 car manufacturers sold by average price, it can be concluded that cars manufactured by Lamborghini have the highest average price compared to other manufacturers. This shows that Lamborghini cars are classified as premium vehicles.
     
-16. Visualization of Top 10 Model by Price
+13. Visualization of Top 10 Model by Price
 
     ![Viz9](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Car%20Price%20Prediction/Picture/Model%20by%20Price.png)
 
     Insight:
     
+    Berdasarkan visualisasi top 15 mobil yang dijual berdasarkan model dan rata-rata Harga, mobil dengan tipe Urus memiliki rata-rata Harga paling tinggi dibandingkan model lain disusul model Combo dan G 65 AMG 63ANG. Selain itu, dari top 15 mobil tersebut , mobil denga model F TYPE R dan Range Rover velar paling sedikit rata-rata harganya dari top 15 mobil tersebut
     
 ## Data Preparation
 
@@ -151,11 +170,12 @@ The data preparation process is as follows:
    In this process, missing data is dropped so that no errors occur in the modelling.
    
 4. Drop Duplicate Data
+   
    At this stage, data is first identified to detect the existence of duplicate data. Once duplicate data is found, it is deleted to prevent bias in the data and maintain data consistency and quality.
    
 5. Mismatch Data Handling, after obtaining the data summary
 
- In this process, after obtaining the data summary, inaccurate or irrelevant data are removed (dropped) because they can negatively affect the performance of the machine learning model. For example, in the Cylinder column, there are mismatched or unrealistic values such as cars with 1, 2, 9, or 14 cylinders, as well as car prices below 500, which are considered invalid and therefore excluded from the datas
+   In this process, after obtaining the data summary, inaccurate or irrelevant data are removed (dropped) because they can negatively affect the performance of the machine learning model. For example, in the Cylinder column, there are mismatched or unrealistic values such as cars with 1, 2, 9, or 14 cylinders, as well as car prices below 500, which are considered invalid and therefore excluded from the datas
  
 6. Encoding
 
@@ -205,3 +225,7 @@ The following is an evaluation of each algorithms used:
 | XGBoost Regressor (After Hypertune Parameter) |   5305.421718  |  8.790590e+07  |   0.694345   |
 
 ## Conclusion 
+- Based on the analysis results, it can be concluded that each feature contributes to determining the price of a car.
+- In the Random Forest model, higher evaluation metric values were obtained compared to other models, indicating that this model is capable of effectively capturing data patterns in predicting car prices.
+- In the SVM model, the model was unable to capture data patterns in predicting car prices. This was demonstrated by the lowest evaluation metric value compared to other models, as well as a negative R² value in the SVM model.
+- After hyperparameter tuning, the Random Forest model experienced a decline in all evaluation metrics compared to before tuning. Meanwhile, the Decision Tree model experienced an increase in every evaluation metric after hyperparameter tuning.
