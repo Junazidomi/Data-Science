@@ -173,7 +173,7 @@ The data preparation process is as follows:
    
    At this stage, data is first identified to detect the existence of duplicate data. Once duplicate data is found, it is deleted to prevent bias in the data and maintain data consistency and quality.
    
-5. Mismatch Data Handling, after obtaining the data summary
+5. Mismatch Data Handling
 
    In this process, after obtaining the data summary, inaccurate or irrelevant data are removed (dropped) because they can negatively affect the performance of the machine learning model. For example, in the Cylinder column, there are mismatched or unrealistic values such as cars with 1, 2, 9, or 14 cylinders, as well as car prices below 500, which are considered invalid and therefore excluded from the datas
  
