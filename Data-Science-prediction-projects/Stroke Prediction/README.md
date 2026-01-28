@@ -25,19 +25,31 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
 Note: "Unknown" in smoking status means that the information is unavailable for this patient
 
 Key Findings:
-
+- The dataset contains 12 columns and 5110 rows of data, including 7 numeric columns and 5 categorical columns. The id column will be dropped as it is irrelevant, while the stroke column will be used as the target variable
+- After identifying duplicate data, it can be concluded that there is no duplicate data in the dataset
+- After identifying process for missing data was carried out, 201 data with missing values were found, so the process of handling missing data was then carried out
+- After the EDA process was carried out, in the gender column there was a value of “Other” which was invalid because there are only two genders. In addition, in the target column, namely stroke, there was an imbalance in values.
 ### EDA
+
+The following are some of the visualisations such:
+
 1. Visualization of Gender
-2. Visualization of Heart Disease
-3. Visualization of Hypertension Status
-4. Visualization of Stroke Status
-5. Visualization of Married Status
-6. Visualization of Resident Type
-7. Visualization of Work Type
-8. Visualization of Smoking Status
-9. Stroke vs Medical Data
-10. Categorical Feature vs Stroke Status
-11. Heatmap of Numerical Feature
+
+   ![](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Gender.png)
+
+   Insight:
+
+   Based on the visualisation of patient gender distribution, it can be concluded that female patients are the most numerous compared to other genders. In addition, the ‘Other’ category will undergo preprocessing because it is considered irrelevant, given that in this analysis gender is limited to two categories.
+3. Visualization of Heart Disease
+4. Visualization of Hypertension Status
+5. Visualization of Stroke Status
+6. Visualization of Married Status
+7. Visualization of Resident Type
+8. Visualization of Work Type
+9. Visualization of Smoking Status
+10. Stroke vs Medical Data
+11. Categorical Feature vs Stroke Status
+12. Heatmap of Numerical Feature
 
 ## Data Preparation
 
@@ -71,3 +83,4 @@ The following is an evaluation of each algorithms used:
  
 
 ## Conclusion
+
