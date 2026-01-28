@@ -92,6 +92,7 @@ The data preparation process is as follows:
    At this stage, the outlier handling process is applied to columns of a numeric type. After identfying outliers using Interquartile Range (IQR), rows of data indicated as outliers deleted (dropped)
    
 2. Drop Column
+   
    In this section, the ‘Unnamed: 0’ column is removed because it is the index of the dataset. Furthermore, this column does not contain relevant information and does not affect the quality of the modelling.
    
 3. Encoding
