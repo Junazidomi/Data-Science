@@ -35,21 +35,64 @@ The following are some of the visualisations such:
 
 1. Visualization of Gender
 
-   ![](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Gender.png)
+   ![Viz1](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Gender.png)
 
    Insight:
 
    Based on the visualisation of patient gender distribution, it can be concluded that female patients are the most numerous compared to other genders. In addition, the ‘Other’ category will undergo preprocessing because it is considered irrelevant, given that in this analysis gender is limited to two categories.
-3. Visualization of Heart Disease
-4. Visualization of Hypertension Status
-5. Visualization of Stroke Status
-6. Visualization of Married Status
-7. Visualization of Resident Type
-8. Visualization of Work Type
-9. Visualization of Smoking Status
-10. Stroke vs Medical Data
-11. Categorical Feature vs Stroke Status
-12. Heatmap of Numerical Feature
+2. Visualization of Heart Disease
+
+   ![Viz](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Heart%20Disease'.png)
+
+   Insight:
+
+   Based on the visualization of heart disease status, it can be concluded that there are more patients who do not have heart disease than those who do.
+   
+3. Visualization of Hypertension Status
+
+   ![Viz3](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Hypertension%20Status.png?raw=true)
+
+   insight:
+
+   Based on the visualization of hypertension status, it can be concluded that there are more patients who do not have hypertension than those who do.
+   
+4. Visualization of Stroke Status
+
+   ![Viz4](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Stroke%20Status.png)
+
+   Insight:
+
+   Based on the visualisation of stroke status, it can be concluded that there are far less patients who have had a stroke compared to those who have not. Therefore, as this feature is used as the target column, data balancing is performed between patients who have had a stroke and those who have not.
+   
+5. Visualization of Married Status
+   
+   ![Viz5](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Married%20Status.png?raw=true)
+
+   Insight:
+   Based on the visualisation of marital status, it can be concluded that there are more married patients than unmarried patients.
+   
+6. Visualization of Resident Type
+
+   ![Viz6](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Resident%20Type.png?raw=true)
+
+   insight:
+
+   Based on the visualisation of residence type, it can be concluded that patients living in urban areas are slightly more numerous than those living in rural areas, although the difference is not particularly significant.
+   
+7. Visualization of Work Type
+
+   ![]()
+11. Visualization of Smoking Status
+
+    ![Viz8](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/Smoking%20Status.png?raw=true)
+
+    Insight:
+
+    Based on the visualisation of smoking status, it can be concluded that patients who have never smoked have the largest percentage, around 37% followed by the ‘Unknown’ category at 30.2%, indicating that information on the patient's smoking history is unavailable. Meanwhile, the category with the smallest percentage is smokers, around 15.4%.
+   
+12. Stroke vs Medical Data
+13. Categorical Feature vs Stroke Status
+14. Heatmap of Numerical Feature
 
 ## Data Preparation
 
@@ -83,4 +126,5 @@ The following is an evaluation of each algorithms used:
  
 
 ## Conclusion
+
 
