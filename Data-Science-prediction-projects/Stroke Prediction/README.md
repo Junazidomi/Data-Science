@@ -1,9 +1,17 @@
 # Stroke Prediction
 
 ## Business Understanding
+
 ### Background
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the main causes of death and permanent disability in the globe is stroke. This illness is brought on by an interruption in blood flow to the brain, which, if left untreated, may result in irreversible brain tissue damage. Age, hypertension, heart disease, blood glucose levels, body mass index (BMI), and lifestyle factors including smoking and physical exercise are just a few of the many variables that increase the risk of stroke. Thus, early identification of stroke risk is essential for better therapy and prevention.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machine learning techniques can be used to more precisely forecast the risk of stroke thanks to technological advancements and the accessibility of past patient health data. It is anticipated that stroke prediction models developed from prior patient data will help medical professionals identify high-risk individuals, allowing for quicker and more precise therapeutic choices and preventive interventions. This strategy may lower death rates while also raising the standard of healthcare services in general.
+
 ### Purpose
+
+The purpose of this project is to build a machine learning model that can predict the risk of stroke in patients based on previous medical history data, in order to assist medical personnel in the early identification of stroke and support subsequent medical decision-making.
+
 ## Data Understanding
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. This Dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient. [Stroke Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
@@ -182,8 +190,23 @@ The following is an evaluation of each algorithms used:
 | Logistic Regression (After Hypertune Parameter) |   0.736791	  |    0.160656   |   0.790323  |   0.267030   |
 | SVM (After Hypertune Parameter)                 |   0.860078   |    0.106796	|   0.177419  |   0.133333   |
  
+#### Confusion Matrix
 
-## Conclusion
+There are two confusion metrics can predict stroke status of patient, such as:
+
+1. Logistic Regression
+
+   ![LG](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/LG.png)
+   
+2. Random Forest
+
+   ![RF](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Stroke%20Prediction/Picture/RF.png)
+   
+### Conclusion
+
+1. After evaluating the models, all algorithms used were unable to capture patterns optimally in the dataset. This is indicated by the low R² values for each algorithm. However, Logistic Regression was the best performing algorithm among the models tested, with an R² value of 0.268493.
+2. Random Forest is an algorithm that has the highest precision value compared to other algorithms, which is 0.20.
+3. After performing hyperparameter tuning on the Logistic Regression and SVM models, the results showed that the evaluation metrics for both algorithms decreased, including the R² score and other metrics, compared to before tuning.
 
 
 
