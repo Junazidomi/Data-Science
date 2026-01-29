@@ -204,9 +204,10 @@ There are two confusion metrics can predict stroke status of patient, such as:
    
 ### Conclusion
 
-1. After evaluating the models, all algorithms used were unable to capture patterns optimally in the dataset. This is indicated by the low R² values for each algorithm. However, Logistic Regression was the best performing algorithm among the models tested, with an R² value of 0.268493.
+1. After evaluating the models, all algorithms used were unable to capture patterns optimally in the dataset. This is indicated by the low F1 values for each algorithm. However, Logistic Regression was the best performing algorithm among the models tested, with an F1 Score value of 0.268493.
 2. Random Forest is an algorithm that has the highest precision value compared to other algorithms, which is 0.20.
-3. After performing hyperparameter tuning on the Logistic Regression and SVM models, the results showed that the evaluation metrics for both algorithms decreased, including the R² score and other metrics, compared to before tuning.
+3. After performing hyperparameter tuning on the Logistic Regression and SVM models, the results showed that the evaluation metrics for both algorithms decreased, including the F1 score and other metrics, compared to before tuning.
+
 
 
 
