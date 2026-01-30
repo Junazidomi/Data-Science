@@ -36,7 +36,10 @@ The house price dataset contains information  about  of various charateristics o
 |     country      |        String     | The country where the house is located                                                                                                          |
 
 Key Findings:
-- 
+- This dataset contains 18 columns and 4600 rows, with 5 categorical columns and 13 numerical columns, as well as a price column as the target variable. In addition, there are date and country columns that will be dropped because they are irrelevant to the modelling
+- After the duplicate data identification process was carried out, no duplicate data was found in the dataset
+- After the missing data identification process was carried out, no missing data was found in the dataset.
+- After identifying outliers in the numerical columns, it was found that all numerical columns contained outliers, thus requiring outlier handling. In this project, the method used to handle outliers was the Interquartile Range (IQR).
 
 ### EDA
 
@@ -182,3 +185,11 @@ The following is an evaluation of each algorithm used:
 
 
 ### Conclusion
+
+- Each feature in this project contributes to the target variable, which is house prices.
+
+- The best model for predicting house prices is XGBoost after hyperparameter tuning.
+
+- In the SVM model, the algorithm was unable to capture patterns in the dataset. This is indicated by the lowest evaluation metric value compared to other algorithms and a negative R² value.
+
+- After hyperparameter tuning was performed on the Random Forest, Decision Tree, and XGBoost Regressor algorithms, all evaluation metrics improved compared to before tuning.
