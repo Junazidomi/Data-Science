@@ -2,6 +2,11 @@
 ## Businees Understanding
 ### Background
 
+One of the key elements in the real estate industry is house prices, which are impacted by a number of factors, including the house's location, number of rooms, building area, condition, and other supporting amenities. House prices vary greatly due to these variances in features, which frequently makes it challenging for buyers, investors, and developers to decide on a fair price.
+
+With the advancement of technology and the accessibility of past home sales data, machine learning may be used to identify trends in this data and create precise models for predicting home prices. These models can help make more accurate decisions by determining the correlation between a property's attributes and its selling price.
+
+
 ### Purpose
 
 The objective of this project is to develop a house price prediction model based on historical house transaction data, such as location, number of rooms, number of beds, and other features. This model is expected to assist consumers in making decisions when selecting or purchasing a house that suits their needs and budget.
@@ -31,6 +36,7 @@ The house price dataset contains information  about  of various charateristics o
 |     country      |        String     | The country where the house is located                                                                                                          |
 
 Key Findings:
+- 
 
 ### EDA
 
@@ -65,14 +71,56 @@ The following are some of the visualization such:
    ![Viz4](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/Floor.png?raw=true)
 
    Insight:
+
+   Based on the visualisation of the number of floors in the houses for sale, single-storey houses are the most common, followed by two-storey houses. Meanwhile, houses with 3.5 floors are the least common. A value of 0.5 floors indicates the presence of a partial additional floor, which generally refers to a loft or half-floor space.
    
-7. Visualization of the House Condition
-8. Visualization of the Quality View on the House
-9. Visualization of the Waterfront on the House
-10. Visualization of the House Condition by Price
-11. Visualization of the Number of Floors by Price
-12. Visualization of the Waterfront on the House by Price
+5. Visualization of the House Condition
+
+   ![Viz5](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/House%20Condition.png?raw=true)
+
+   Insight:
+
+   Based on the visualisation of house conditions for houses for sale, houses with a condition rating of 3 are the most common compared to other categories. Meanwhile, houses with condition ratings of 1 and 2 are the least common.
+   
+6. Visualization of the Quality View on the House
+
+   <img src="[gambar.png](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/Quality%20View.png)" width="50%">
+
+   Insight:
+   
+   Based on the quality view visualisation of houses for sale, houses with a quality view of 0 are the most numerous compared to other categories. Meanwhile, categories 1, 2, 3, and 4 have relatively similar numbers.
+   
+7. Visualization of the Waterfront on the House
+
+   ![Viz7](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/Waterfront.png)
+
+   Insight:
+
+   Based on the visualisation of the waterfront in the houses for sale, it can be concluded that there are far more houses without a waterfront than those with a waterfront.
+   
+8. Visualization of the Number of Floors by Price
+
+   ![Viz8](https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/Floor%20by%20Prize.png?raw=true)
+
+   Insight:
+
+  Based on the visualisation of the relationship between the number of floors and house prices, houses with 2.5 floors have the highest median price compared to other categories, although the difference is not very significant.
+  
+10. Visualization of the Waterfront on the House by Price
+
+    ![Viz9](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/Waterfront%20by%20Prize.png)
+    
+    Insight:
+
+     Based on the visualisation of the relationship between waterfront properties and house prices, houses with waterfront properties show a higher median price compared to houses without waterfront properties.
+    
 13. Heatmap of Numerical Feature
+
+    ![Viz10](https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House%20Price%20Prediction/Picture/Heatmap.png)
+
+    Insight:
+    
+    Based on the visualisation of correlations between numerical columns, the sqft_living and sqft_above features have a very high correlation of 0.88, followed by the correlation between sqft_living and bathroom of 0.76.
     
 ## Data Preparation
 
@@ -132,3 +180,5 @@ The following is an evaluation of each algorithm used:
 | Decision Tree (After Hypertune Parameter) | 99620.123791  |	1.948329e+10 |  0.550240  |
 | XGB Regressor (After Hypertune Parameter) | 69872.950412  |	1.155641e+10 |	0.733227  |
 
+
+### Conclusion
