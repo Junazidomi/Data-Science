@@ -160,7 +160,7 @@ The data preparation process is as follows:
    
 
 ## Modeling
-In this project, several algorithms for regression evaluation purpose such as:
+In this project, several algorithms for classification evaluation purpose such as:
 1. Logistic Regression
 
    Logistic regression is a machine learning algorithm that estimates the probability of an event occuring, such as choosing or not choosing, based on a given dataset of independent variables
@@ -207,6 +207,7 @@ There are two confusion metrics can predict stroke status of patient, such as:
 1. After evaluating the models, all algorithms used were unable to capture patterns optimally in the dataset. This is indicated by the low F1 values for each algorithm. However, Logistic Regression was the best performing algorithm among the models tested, with an F1 Score value of 0.268493.
 2. Random Forest is an algorithm that has the highest precision value compared to other algorithms, which is 0.20.
 3. After performing hyperparameter tuning on the Logistic Regression and SVM models, the results showed that the evaluation metrics for both algorithms decreased, including the F1 score and other metrics, compared to before tuning.
+
 
 
 
