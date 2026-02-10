@@ -29,27 +29,64 @@ Key Findings:
 The following are some of the visualizations such:
 
 1. Visualization of Smoking Status
-2. Visualization of Married Status
-3. Visualization of Risk Status
-4. Visualization of Smoking Status
-5. Visualization of Sugar Level
-6. Visualization of Profession
-7. Visualization of Exercise Level
-8. Visualization of Exercise Level by Risk Status
-9. Visualization of Exercise Level by Sugar Level
-10. Visualization of Numeric Feature by Risk Status
-11. Visualization of Risk Status vs Alcohol Status
-12. Visualization of Risk Status vs Smoking Status
-13. Visualization of Heatmap
+   
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Smoking%20Status.png" width="370">
+
+   Insight:
+   
+3. Visualization of Married Status
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Married%20Status.png" width="370">
+
+   Insight:
+   
+4. Visualization of Risk Status
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Risk%20Status.png" width="370">
+
+   Insight:
+   
+   
+8. Visualization of Sugar Level
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Sugar%20Level.png"  width="370">
+
+   Insight:
+   
+10. Visualization of Profession
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Profession.png" width="370">
+
+    Insight:
+    
+12. Visualization of Exercise Level
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Exercise.png" width="370">
+
+    Insight:
+
+    
+15. Visualization of Exercise Level by Sugar Level
+16. Visualization of Numeric Feature by Risk Status
+17. Visualization of Risk Status vs Alcohol Status
+18. Visualization of Risk Status vs Smoking Status
+19. Visualization of Heatmap
 
 ## Data Preparation
 
 The data preparation is as follows:
 
 1. Encoding
+
+   Encoding is the process of converting categorical data into a numerical format so that it can be processed by machine learning models. The goal is to make it easier for models to capture patterns or relationships in the data by representing categories as sequential numbers or binary numbers.
+   
 2. Split the Training Data and Test Data
+
+ In this process, the target variable is handled. When the class distribution in the target variable is unbalanced, the model tends to predict the majority class, resulting in unstable performance. Therefore, data balancing is performed using the oversampling method, which increases the amount of data in the minority class so that the class distribution becomes balanced.
+   
 3. Balance Target Data
 
+   In this process, the target variable
 ## Modelling
 
 In this project, several algorithms for classification evaluation purpose such as:
@@ -73,3 +110,4 @@ The following is an evaluation of each algorithms used:
 | SVM                  |      0.756	    |      0.871795   |	   0.768362	 |    0.816817    |
 | Gradient Boosting    |      0.978	    |      0.995665	  |    0.973164  |	  0.984286    |
 | XGB Classifier       |      0.977	    |      0.994228	  |    0.973164	 |    0.983583    |
+
