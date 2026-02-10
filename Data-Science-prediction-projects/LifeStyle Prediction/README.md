@@ -28,6 +28,11 @@ This synthetic health dataset simulates real-world lifestyle and wellness data f
 
 Key Findings:
 
+- The dataset consists of 12 columns and 5,000 rows, with 5 numeric columns and 7 categorical columns, and Health Risk as the main variable (target).
+- After identifying duplicate data, no duplicate data was found in the dataset.
+- After identifying missing values, no missing data was found in the dataset.
+- After identifying outliers in the numeric columns, no outliers were found in the dataset.
+  
 ### EDA
 
 The following are some of the visualizations such:
@@ -119,7 +124,7 @@ The data preparation is as follows:
    
 2. Split the Training Data and Test Data
 
- In this process, the target variable is handled. When the class distribution in the target variable is unbalanced, the model tends to predict the majority class, resulting in unstable performance. Therefore, data balancing is performed using the oversampling method, which increases the amount of data in the minority class so that the class distribution becomes balanced.
+   In this process, the target variable is handled. When the class distribution in the target variable is unbalanced, the model tends to predict the majority class, resulting in unstable performance. Therefore, data balancing is performed using the oversampling method, which increases the amount of data in the minority class so that the class distribution becomes balanced.
    
 3. Balance Target Data
 
@@ -137,12 +142,22 @@ In this project, several algorithms for classification evaluation purpose such a
 
    An ensemble learning-based machine learning algorithm that combines multiple decision trees to produce more accurate and stable predictions than a single tree, working by taking random samples from data and features, then combining the results.
    
-4. Decision Tree
-   
-6. SVM
-7. Gradient Boosting
-8. XGboost Classifier
+3. Decision Tree
 
+   a machine learning and data mining method that uses a tree like-structure to make decisions or predictions by breaking down complex data into series of simple rules.
+   
+4. SVM
+
+   SVM is a machine learning algorithm that works by processing data to generate a hyperlane that separates the input space into two classes, starting from the grouping of linear cases seperated by the hyperlane
+   
+5. Gradient Boosting
+
+   Gradient Boosting is a machine learning technique that combines several weak prediction models into one ensemble. These weak prediction models are usually decision trees, which are trained sequentially to minimize errors and improve accuracy.
+   
+9. XGboost Classifier
+
+    XGboost (Xtreme Gradient Boosting) is a machine learning library that uses decision trees, a supervised learning algorithm that utilizes gradient descent. It is known for its speed, efficiency, and ability to scale well with large data sets.
+   
 ## Evaluation
 
 The following is an evaluation of each algorithms used:
@@ -155,5 +170,6 @@ The following is an evaluation of each algorithms used:
 | SVM                  |      0.756	    |      0.871795   |	   0.768362	 |    0.816817    |
 | Gradient Boosting    |      0.978	    |      0.995665	  |    0.973164  |	  0.984286    |
 | XGB Classifier       |      0.977	    |      0.994228	  |    0.973164	 |    0.983583    |
+
 
 
