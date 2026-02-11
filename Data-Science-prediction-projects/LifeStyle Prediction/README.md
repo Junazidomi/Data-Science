@@ -42,65 +42,84 @@ The following are some of the visualizations such:
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Smoking%20Status.png" width="370">
 
    Insight:
+
+   Based on the visualization of smoking status, the number of patients who do not smoke is greater than the number of patients who smoke.
    
-3. Visualization of Married Status
+2. Visualization of Married Status
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Married%20Status.png" width="370">
 
    Insight:
+
+   Based on marital status data, the number of unmarried patients is higher than the number of married patients.
    
-4. Visualization of Risk Status
+3. Visualization of Risk Status
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Risk%20Status.png" width="370">
 
    Insight:
    
+   Based on risk status data, the number of patients experiencing health risks is higher than the number of patients who do not experience health risks.
    
-8. Visualization of Sugar Level
+4. Visualization of Sugar Level
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Sugar%20Level.png"  width="370">
 
    Insight:
 
-10. Visualization of Alcohol Status
+   Based on the visualization of sugar levels in patients, the number of patients with medium sugar levels was the highest compared to other categories, while the high category was the lowest.
+   
+5. Visualization of Alcohol Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Alcohol.png" width="370">
 
     Insight:
-    
-12. Visualization of Profession
+
+     Based on the visualization of alcohol consumption, patients who do not consume alcohol are in the majority, accounting for about 3/4 of the total number of patients, while patients who consume alcohol account for only about 1/4 of the total number of patients.
+   
+6. Visualization of Profession
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Profession.png" width="370">
 
     Insight:
-    
-13. Visualization of Exercise Level
+
+    Based on the visualization of professions, patients with the occupation of Student were the most numerous compared to other occupational categories, although the difference was not particularly significant.
+   
+7. Visualization of Exercise Level
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Exercise.png" width="370">
 
     Insight:
 
-15. Visualization of Exercise Level by Risk Status
+    In the visualization of exercise levels, the majority of patients tend to exercise at a medium level, while fewer patients do not exercise at all.
+    
+8. Visualization of Exercise Level by Risk Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Exercise%20vs%20risk.png" width="370">
 
     Insight:
-    
-17. Visualization of Exercise Level by Sugar Level
+   
+    Based on the visualization of alcohol consumption, patients who do not consume alcohol are in the majority, accounting for about 3/4 of the total number of patients, while patients who consume alcohol account for only about 1/4 of the total number of patients.
+   
+9. Visualization of Exercise Level by Sugar Level
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/Exercise%20vs%20risk.png" width="370">
 
     Insight:
-    
-17. Visualization of Numeric Feature by Risk Status
+
+    Based on the visualization of patients according to exercise level and sugar level, patients with a medium exercise level also have a medium sugar level. In addition, each exercise level with a medium sugar level dominates  compared to other sugar levels at each exercise level.
+   
+10. Visualization of Numeric Feature by Risk Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/numerik%20vs%20risk.png" width="370">
 
     Insight:
     
-19. Visualization of Risk Status vs Alcohol Status
+12. Visualization of Risk Status vs Alcohol Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/risk%20vs%20alcoho%3B.png" width="370">
+
+    Insight:
     
 21. Visualization of Risk Status vs Smoking Status
 
@@ -170,6 +189,7 @@ The following is an evaluation of each algorithms used:
 | SVM                  |      0.756	    |      0.871795   |	   0.768362	 |    0.816817    |
 | Gradient Boosting    |      0.978	    |      0.995665	  |    0.973164  |	  0.984286    |
 | XGB Classifier       |      0.977	    |      0.994228	  |    0.973164	 |    0.983583    |
+
 
 
 
