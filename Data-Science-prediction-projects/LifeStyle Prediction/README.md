@@ -198,7 +198,11 @@ The following is an evaluation of each algorithms used:
 | Gradient Boosting    |      0.978	    |      0.995665	  |    0.973164  |	  0.984286    |
 | XGB Classifier       |      0.977	    |      0.994228	  |    0.973164	 |    0.983583    |
 
+#### Confusion Matrix
 
+The best model is Random forest. The following is the confusion matrix of the Random Forest:
 
+<img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/RF_CM.png" width="350">
 
-
+### Conclusion
+- 
