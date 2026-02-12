@@ -99,7 +99,7 @@ The following are some of the visualizations such:
 
     Insight:
    
-    Based on the visualization of alcohol consumption, patients who do not consume alcohol are in the majority, accounting for about 3/4 of the total number of patients, while patients who consume alcohol account for only about 1/4 of the total number of patients.
+    It was found that the medium exercise level category had a high health risk level. In addition, at each exercise level, the number of patients with high health risks was greater than those with low health risks
    
 9. Visualization of Exercise Level by Sugar Level
 
@@ -114,24 +114,32 @@ The following are some of the visualizations such:
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/numerik%20vs%20risk.png" width="370">
 
     Insight:
+
+    Based on the visualization of the relationship between numerical features and health risk, it can be seen that patients with high health risk generally have a median age of around 40–65 years. In terms of weight, the group with high health risk has a median of 70–110 kg, which indicates potential obesity that can increase health risk. In terms of height, patients with high health risk have a median height of around 155–182 cm, while those with low health risk have a median height of 165–190 cm. In addition, patients with high health risk have a median sleep time of around 6–7 hours, and a high BMI is also associated with an increased health risk.
     
-12. Visualization of Risk Status vs Alcohol Status
+11. Visualization of Risk Status vs Alcohol Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/risk%20vs%20alcoho%3B.png" width="370">
 
     Insight:
+
+    Based on the visualization of the relationship between health risk and alcohol status, it appears that patients with high health risks are more likely to come from groups that consume alcohol than patients with high risks who do not consume alcohol.
     
-21. Visualization of Risk Status vs Smoking Status
+12. Visualization of Risk Status vs Smoking Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/risk%20vs%20smoking.png" width="370">
 
     Insight:
+
+    Based on the visualization of the relationship between health risk and smoking status, it can be seen that the number of patients in the high health risk category is highest among both smokers and non-smokers. However, this still shows that smoking has the potential to increase health risks.
     
-23. Visualization of Heatmap
+13. Visualization of Heatmap
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/heatmap.png" width="370">
 
     Insight:
+    
+    Based on the heatmap visualization, it is known that BMI has a high positive correlation with weight. In addition, height and BMI have the lowest correlation compared to the correlations between other numerical features.
     
 ## Data Preparation
 
@@ -173,7 +181,7 @@ In this project, several algorithms for classification evaluation purpose such a
 
    Gradient Boosting is a machine learning technique that combines several weak prediction models into one ensemble. These weak prediction models are usually decision trees, which are trained sequentially to minimize errors and improve accuracy.
    
-9. XGboost Classifier
+6. XGboost Classifier
 
     XGboost (Xtreme Gradient Boosting) is a machine learning library that uses decision trees, a supervised learning algorithm that utilizes gradient descent. It is known for its speed, efficiency, and ability to scale well with large data sets.
    
@@ -189,6 +197,7 @@ The following is an evaluation of each algorithms used:
 | SVM                  |      0.756	    |      0.871795   |	   0.768362	 |    0.816817    |
 | Gradient Boosting    |      0.978	    |      0.995665	  |    0.973164  |	  0.984286    |
 | XGB Classifier       |      0.977	    |      0.994228	  |    0.973164	 |    0.983583    |
+
 
 
 
