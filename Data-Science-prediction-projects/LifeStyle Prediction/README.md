@@ -3,6 +3,12 @@
 ## Business Understanding
 ### Background
 
+The changing lifestyle of modern society is having a significant impact on health. An unbalanced diet, lack of physical activity, smoking, alcohol consumption, and poor sleep quality are major factors that increase the risk of various chronic diseases such as obesity, diabetes, and heart disease. Unfortunately, many individuals are unaware of their health risks until symptoms begin to appear.
+
+With the development of technology and the availability of health data, a machine learning-based approach can be used to help predict a person's health condition based on their lifestyle. By utilizing data such as age, weight, height, exercise habits, sugar consumption patterns, smoking status, and alcohol consumption, prediction models can identify patterns related to health risks.
+
+Through lifestyle prediction, it is hoped that people can obtain an early picture of their health condition more quickly and preventively. These predictions can be used as a basis for individuals and health workers to take preventive measures, raise awareness of healthy living, and support data-driven decision-making in efforts to improve public health.
+
 ### Purpose
 
 The purpose of this project is to build a machine learning model capable of predicting a person's health condition to support further decision making. In addition, this project also aims to assist the community and health workers in predicting health conditions based on lifestyle.
@@ -205,4 +211,8 @@ The best model is Random forest. The following is the confusion matrix of the Ra
 <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/LifeStyle%20Prediction/Picture/RF_CM.png" width="350">
 
 ### Conclusion
-- 
+- Based on the modeling results using various machine learning algorithms, it was found that Random Forest had the highest F1-score compared to other algorithms. Therefore, the Random Forest algorithm was selected as the best model for predicting lifestyle.
+- In this project, hyperparameter tuning was not performed because the model was already able to capture patterns in the dataset well.
+- In the confusion matrix, the model is able to make good predictions, as indicated by the relatively small number of false positives.
+- In this project, all features—both categorical and numerical data—contribute to predicting lifestyle.
+
