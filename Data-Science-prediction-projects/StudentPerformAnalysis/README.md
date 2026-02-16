@@ -3,6 +3,8 @@
 ### Background
 ### Purpose
 
+The purpose of the Student Test Score Predictions is to help teachers and parent monitor student progress, particularly in monitoring test scores based on student`s internal and external conditions, as well as supporting decision-making to improve the student learning process.
+
 ## Data Understanding
 
 This dataset provides a comprehensive overview of various factors affecting student performance in exams It includes information on study, habits, attedance, parental involvement, and other aspects influencing academic success. Dataset:[Student Performance Dataset](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors).
@@ -37,27 +39,108 @@ Key Findings:
 The following is the visualization obtained:
 
 1. Visualization of Access Resources Level of Student
-2. Visualization of Extracurricular Activities of Student
-3. Visualization of Distance From Home Level of Student
-4. Visualization of Family Income of Students
-5. Visualization of Gender of Student
-6. Visualization of Internet Access of Students
-7. Visualization of Motivation Level of Students
-8. Visualization of Parental Involvement Level of Students
-9. Visualization of School Type of Students
-10. Visualization of Gender VS Categorical Columns
-11. Visualization of School Type VS Teacher Quality
-12. Visualization of Exam Score VS School Condition
-13. Visualization of Exam Score VS Parental Condition
-14. Visualization of Exam Score VS Student Factor
-15. Heatmap of Numerical Feature
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Access%20To%20Resource.png" width="350">
+
+   Insight:
+   
+3. Visualization of Extracurricular Activities of Student
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Activities.png" width="350">
+
+   Insight:
+   
+5. Visualization of Distance From Home Level of Student
+
+   <img src="https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Distance%20From%20Home.png" width="350">
+
+   Insight:
+   
+7. Visualization of Family Income of Students
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Family%20Income.png" width="350">
+   
+9. Visualization of Gender of Student
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Gender.png" width="350">
+
+    Insight:
+   
+11. Visualization of Internet Access of Students
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Internet%20Access.png" width="350">
+
+    Insight:
+    
+13. Visualization of Motivation Level of Students
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Motivation%20Level.png" width="350">
+
+    Insight:
+    
+15. Visualization of Parental Involvement Level of Students
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Parental%20Involvement.png" width="350">
+
+    Insight:
+    
+17. Visualization of School Type of Students
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/School%20Type.png" width="350">
+
+    Insight:
+    
+19. Visualization of Gender VS Categorical Columns
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Gender%20vs%20Kategorikal%20Columns.png" width="370">
+
+    Insight:
+    
+21. Visualization of School Type VS Teacher Quality
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/School%20Type%20vs%20Teacher%20Quality.png" width="350">
+
+    Insight:
+    
+23. Visualization of Exam Score VS School Condition
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%201%20by%20Exam%20Score.png" width="370">
+
+    Insight:
+    
+25. Visualization of Exam Score VS Parental Condition
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%203%20by%20Exam%20Score.png" width="350">
+
+    Insight:
+    
+27. Visualization of Exam Score VS Student Factor
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%20by%20Exam%20Score.png" width="370">
+
+    Insight:
+    
+29. Heatmap of Numerical Feature
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Heatmap%20of%20Numerical%20Features.png" width="350">
+
+    Insight:
     
 ## Data Preparation
 
-The data preparation is as follows: 
+The data preparation is as follows:
+
 1. Encoding
+
+   This process is often referred to as feature transformation, which involves converting categorical columns into numerical or binary form so that it can be used in the model training process and fulfill the mathematical requirements of machine learning algorithms.
+   
 2. Normalization
+
+   Normalization is the process of converting numerical data using into a specific scale with the purpose of equalizing the range  of values for each numerical feature used in the model training process
+   
 3. Split the Training Data and Test Data
+
+   In this section, train data and test data are split using sklearn train_test_split library to split dependent and independent data, which are then processed.
    
 ## Modelling
 
@@ -84,5 +167,6 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
