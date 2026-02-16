@@ -33,7 +33,11 @@ This dataset provides a comprehensive overview of various factors affecting stud
 | Exam_Score                    |       Int         | Final exam score.                                                              |
 
 Key Findings:
-
+- The dataset consists of 20 columns and 6,607 rows, covering 13 categorical columns and 7 numeric columns, with Exam Score as the dependent variable. In addition, categorical data will undergo feature transformation, which is the process of converting categorical data into numerical representations so that it can be processed by machine learning models.
+- After identifying missing values, it was found that there was missing data in the Teacher_Quality for 78 cases, Parental_Education_Level for 90 cases and Distance_From_Home for 67 cases. Therefore, it was necessary to process this data before proceeding to the analysis and modelling stages
+- After identifying the data, an invalid value was found in Exam_Score column, namely a value of 101. Therefore, it is necessary to handle irrelevant data in that column before the analysis and modelling process is carried out.
+- After the duplicate data identification process was carried out, no duplicate data was found in the dataset
+- 
 ### EDA
 
 The following is the visualization obtained:
@@ -130,15 +134,18 @@ The following is the visualization obtained:
 
 The data preparation is as follows:
 
-1. Encoding
+
+1. Drop Data Missing
+2. Drop Irrelevant Value
+3. Encoding
 
    This process is often referred to as feature transformation, which involves converting categorical columns into numerical or binary form so that it can be used in the model training process and fulfill the mathematical requirements of machine learning algorithms.
    
-2. Normalization
+4. Normalization
 
    Normalization is the process of converting numerical data using into a specific scale with the purpose of equalizing the range  of values for each numerical feature used in the model training process
    
-3. Split the Training Data and Test Data
+5. Split the Training Data and Test Data
 
    In this section, train data and test data are split using sklearn train_test_split library to split dependent and independent data, which are then processed.
    
@@ -167,6 +174,7 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
 
