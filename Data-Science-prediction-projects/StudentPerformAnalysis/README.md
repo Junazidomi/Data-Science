@@ -33,11 +33,13 @@ This dataset provides a comprehensive overview of various factors affecting stud
 | Exam_Score                    |       Int         | Final exam score.                                                              |
 
 Key Findings:
+
 - The dataset consists of 20 columns and 6,607 rows, covering 13 categorical columns and 7 numeric columns, with Exam Score as the dependent variable. In addition, categorical data will undergo feature transformation, which is the process of converting categorical data into numerical representations so that it can be processed by machine learning models.
 - After identifying missing values, it was found that there was missing data in the Teacher_Quality for 78 cases, Parental_Education_Level for 90 cases and Distance_From_Home for 67 cases. Therefore, it was necessary to process this data before proceeding to the analysis and modelling stages
 - After identifying the data, an invalid value was found in Exam_Score column, namely a value of 101. Therefore, it is necessary to handle irrelevant data in that column before the analysis and modelling process is carried out.
 - After the duplicate data identification process was carried out, no duplicate data was found in the dataset
-- 
+- After the outlier identification process was carried out, outliers were found in the Hours Studied, Tutoring Sessions, and Exam Score features. Therefore, outlier handling is required, for example by deleting outlier data or performing feature transformation.
+  
 ### EDA
 
 The following is the visualization obtained:
@@ -174,6 +176,7 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
 
