@@ -138,7 +138,13 @@ The data preparation is as follows:
 
 
 1. Drop Data Missing
+
+   The purpose of this process is to maintain the consistency of the dataset used for training, as most machine learning models cannot handle missing values, except for certain algorithms such as XGBoost and CatBoost.
+   
 2. Drop Irrelevant Value
+   
+   Remove irrelevant values to maintain dataset consistency.
+   
 3. Encoding
 
    This process is often referred to as feature transformation, which involves converting categorical columns into numerical or binary form so that it can be used in the model training process and fulfill the mathematical requirements of machine learning algorithms.
@@ -176,6 +182,7 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
 
