@@ -162,11 +162,28 @@ The data preparation is as follows:
 In this project, several algorithms for regression evaluation purpose such as:
 
 1. Linear Regression
+
+   Linear Regression is a data analysis technique that predicts unknown data values using other related and known data values mathematically model unknown or dependent variables and known for independent variables as linear equations
+   
 2. Random Forest
+
+   Random Forest is a machine learning algorithm that combines the outputs of several decision trees to produce more accurate predictions, particularly in regression problems.
+   
 3. Decision Tree
+
+   Decision tree is a machine learning algorithm in the form of a tree structure consisting of nodes that represent decisions and branches that represent the consequences of those decisions. Each node in a decision tree represents a variable in the dataset that influences the decision and its consequences.
+   
 4. SVM
+
+   Support Vector Machine (SVM) Regression is a supervised learning algorithm used to predict the value of continuous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane between the hyperlane and the boundary line).
+   
 5. Gradient Boosting
+   
+   Gradient boosting is an ensemble machine learning algorithm that builds predictive models incrementally by combining several weak models (usually decision trees) into a strong model.
+   
 6. XGBoost
+
+   XGBoost uses ensemble learning techniques, which combine predictions from multiple models to improve overall performance. This approach is based on boosting techniques, where weak learners, usually simple decision trees, are combined into a strong learner
    
 ## Evaluation
 
@@ -182,6 +199,7 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
 
