@@ -49,23 +49,32 @@ The following is the visualization obtained:
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Access%20To%20Resource.png" width="350">
 
    Insight:
+
+   Based on the visualization of access to resources, the majority of students are at the medium level, which is about half of the total number of students. Meanwhile, the low and high categories contribute 20% and 29.8%.
    
-3. Visualization of Extracurricular Activities of Student
+2. Visualization of Extracurricular Activities of Student
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Activities.png" width="350">
 
    Insight:
+
+   Based on the visualization of whether students participate in extracurricular activities, more students participate in extracurricular activities than do not participate in extracurricular activities.
    
-5. Visualization of Distance From Home Level of Student
+3. Visualization of Distance From Home Level of Student
 
    <img src="https://github.com/Junazidomi/Data-Science/blob/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Distance%20From%20Home.png" width="350">
 
    Insight:
+
+   Based on the visualization of the distance between students' homes, the "near" category is the most common compared to other categories, while the "far" category is the least common. This shows that most students live relatively close to school
    
-7. Visualization of Family Income of Students
+4. Visualization of Family Income of Students
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Family%20Income.png" width="350">
-   
+
+   Insight:
+
+   Based on the visualization of student family income levels, the low category is the highest compared to other categories
 9. Visualization of Gender of Student
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Gender.png" width="350">
@@ -199,6 +208,7 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
 
