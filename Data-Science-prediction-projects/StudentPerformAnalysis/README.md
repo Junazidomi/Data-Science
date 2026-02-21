@@ -75,25 +75,31 @@ The following is the visualization obtained:
    Insight:
 
    Based on the visualization of student family income levels, the low category is the highest compared to other categories
-9. Visualization of Gender of Student
+5. Visualization of Gender of Student
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Gender.png" width="350">
 
-    Insight:
+   Insight:
+
+   Based on the visualization of student gender, the majority of students are male
    
-11. Visualization of Internet Access of Students
+6. Visualization of Internet Access of Students
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Internet%20Access.png" width="350">
 
     Insight:
-    
-13. Visualization of Motivation Level of Students
+
+    Based on the visualization of internet access, the majority of students have internet access, while only a small number of students do not have internet access.
+   
+7. Visualization of Motivation Level of Students
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Motivation%20Level.png" width="350">
 
     Insight:
-    
-15. Visualization of Parental Involvement Level of Students
+
+    Based on the visualization of motivation levels, the medium category is the most prevalent and covers the majority of students, followed by the low category. Meanwhile, the high category is the least prevalent compared to other levels. This shows that, in general, students' learning motivation levels tend to be moderate and still need to be improved.
+   
+8. Visualization of Parental Involvement Level of Students
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Parental%20Involvement.png" width="350">
 
@@ -117,11 +123,15 @@ The following is the visualization obtained:
 
     Insight:
     
+    Based on the visualization of school types and teacher quality, each type of school shows a relatively similar distribution of teacher quality. This can be seen from the dominance of the medium teacher quality category in each type of school compared to other categories.
+    
 23. Visualization of Exam Score VS School Condition
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%201%20by%20Exam%20Score.png" width="370">
 
     Insight:
+
+    Based on the visualization of exam scores reviewed from school conditions, it can be seen that in the School Type variable, private schools have a slightly higher median exam score than public schools, although the difference is not very significant. In the Teacher Quality variable, the high teacher quality category shows a higher median exam score than other categories. In addition, in the extracurricular activities variable, students who participate in extracurricular activities have a higher median exam score than students who do not participate. Thus, it can be concluded that school conditions such as School Type, Teacher Quality, and participation in extracurricular activities tend to influence student exam results.
     
 25. Visualization of Exam Score VS Parental Condition
 
@@ -140,6 +150,8 @@ The following is the visualization obtained:
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Heatmap%20of%20Numerical%20Features.png" width="350">
 
     Insight:
+
+    Based on the correlation visualization of numerical features, Exam Score has the highest correlation with Attendance, which is 0.58, compared to other features. Furthermore, Exam Score also has a fairly strong correlation with Hours_Studied, which is 0.45.
     
 ## Data Preparation
 
@@ -208,6 +220,7 @@ The following is an evaluation of each algorithm used:
 | Random Forest (After Hypertune Parameter)     |    1.077207   |    5.312493   |   0.658126   |
 | XGBoost (After Hypertune Parameter)           |    0.797267   |    4.780617   |   0.692354   |
 | Gradient Boosting (After Hypertune Parameter) |    0.677934   |    4.476078   |   0.711952   |
+
 
 
 
