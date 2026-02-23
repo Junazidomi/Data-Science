@@ -1,6 +1,20 @@
 # Student Test Score Predictions
 ## Business Understanding
 ### Background
+
+Nowadays, the quality of education among school students can be determined by their exam results, which are used to categorize them. However, exam scores are not only determined by students' intelligence, but are also influenced by various internal and external factors. Factors such as time management, learning motivation, learning habits, and the environment affect students' exam performance (Wintre & Yaffe, 2000; Nonis & Hudson, 2010).
+
+Finding out and understanding what influences students' exam results is very important. This will provide a strong foundation for developing better learning methods or solutions. For example, if it is known that intrinsic motivation is very important for academic achievement, then a learning approach that allows students to be independent and relevant to the material will be more effective (Ryan & Deci, 2000).
+
+The results of research conducted by Broadbent and Poon (2015) show that the use of learning technology and independent learning strategies can improve academic achievement. This shows that solutions to this problem must not only be theoretical but also practical. Therefore, this project will concentrate on identifying the main components that influence student test results and developing evidence-based methods to improve academic achievement.
+
+
+
+Referensi
+1. Wintre, M. G., & Yaffe, M. (2000). First-year students’ adjustment to university life as a function of relationships with parents. Journal of Adolescent Research, 15(1), 9–37.
+2. Ryan, R. M., & Deci, E. L. (2000). Intrinsic and extrinsic motivations: Classic definitions and new directions. Contemporary Educational Psychology, 25(1), 54–67.
+3. Broadbent, J., & Poon, W. L. (2015). Self-regulated learning strategies & academic achievement in online higher education learning environments: A systematic review. The Internet and Higher Education, 27, 1–13.
+
 ### Purpose
 
 The purpose of the Student Test Score Predictions is to help teachers and parent monitor student progress, particularly in monitoring test scores based on student`s internal and external conditions, as well as supporting decision-making to improve the student learning process.
@@ -104,20 +118,26 @@ The following is the visualization obtained:
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Parental%20Involvement.png" width="350">
 
     Insight:
-    
-17. Visualization of School Type of Students
+
+    Based on the visualization of parental involvement in student test results, it can be seen that overall, the level of parental involvement is at a medium level.
+   
+9. Visualization of School Type of Students
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/School%20Type.png" width="350">
 
     Insight:
-    
-19. Visualization of Gender VS Categorical Columns
+
+    Based on the visualization of the types of schools attended by students, it is known that the majority of students attend public schools, accounting  for 69.5% of the total number of students.
+   
+10. Visualization of Gender VS Categorical Columns
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Gender%20vs%20Kategorikal%20Columns.png" width="370">
 
     Insight:
+
+    Based on gender visualization of several categorical variables, it appears that male students dominate female students in various aspects, such as Parental Involvement, Access to Resources, Motivation Level, Peer Influence, and Type of School.
     
-21. Visualization of School Type VS Teacher Quality
+11. Visualization of School Type VS Teacher Quality
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/School%20Type%20vs%20Teacher%20Quality.png" width="350">
 
@@ -125,7 +145,7 @@ The following is the visualization obtained:
     
     Based on the visualization of school types and teacher quality, each type of school shows a relatively similar distribution of teacher quality. This can be seen from the dominance of the medium teacher quality category in each type of school compared to other categories.
     
-23. Visualization of Exam Score VS School Condition
+12. Visualization of Exam Score VS School Condition
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%201%20by%20Exam%20Score.png" width="370">
 
@@ -133,19 +153,24 @@ The following is the visualization obtained:
 
     Based on the visualization of exam scores reviewed from school conditions, it can be seen that in the School Type variable, private schools have a slightly higher median exam score than public schools, although the difference is not very significant. In the Teacher Quality variable, the high teacher quality category shows a higher median exam score than other categories. In addition, in the extracurricular activities variable, students who participate in extracurricular activities have a higher median exam score than students who do not participate. Thus, it can be concluded that school conditions such as School Type, Teacher Quality, and participation in extracurricular activities tend to influence student exam results.
     
-25. Visualization of Exam Score VS Parental Condition
+13. Visualization of Exam Score VS Parental Condition
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%203%20by%20Exam%20Score.png" width="350">
 
     Insight:
-    
-27. Visualization of Exam Score VS Student Factor
+
+    Based on the visualization of Exam Scores against Parental Condition, it can be seen that parental involvement affects students' exam scores, both in terms of supervision and discipline. This is demonstrated by the high parental involvement category, which has the highest median exam score compared to other categories. In addition, the level of parental education also affects student scores. It can be seen that students whose parents have a college education have the highest median exam score compared to other levels of education.
+
+14. Visualization of Exam Score VS Student Factor
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Student%20Factor%20by%20Exam%20Score.png" width="370">
 
     Insight:
     
-29. Heatmap of Numerical Feature
+    Based on the visualization of Exam Scores against several student factors, it can be seen that in the Motivation Level variable, the high motivation category has a higher median exam score than other categories.
+In the Peer Influence variable, positive influence has a better impact on student exam scores. Meanwhile, in the gender variable, there is no significant difference in the median exam score. As for the learning disabilities variable, students without disabilities show a higher median exam score than students with disabilities.
+
+15. Heatmap of Numerical Feature
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/StudentPerformAnalysis/Picture/Heatmap%20of%20Numerical%20Features.png" width="350">
 
@@ -223,6 +248,11 @@ The following is an evaluation of each algorithm used:
 
 
 
+### Conclusion
+
+1. Every variable has an influence on student's test score, especially school factors, parental factors and the students' own internal factors
+2. Based on the evaluation metrics, the algorithm that showed the best performance was Linear Regression, while the algorithm with the lowest performance was Decision Tree.
+3. After hyperparameter tuning was performed on the Random Forest, XGBoost, and Gradient Boosting algorithms, the results showed that Random Forest and Gradient Boosting experienced an increase in metric values. Meanwhile, XGBoost showed metric values that remained the same as before hyperparameter tuning was performed.
 
 
 
