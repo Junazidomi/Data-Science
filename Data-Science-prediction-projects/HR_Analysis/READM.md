@@ -22,8 +22,11 @@ This dataset contains historical data on employees working at a company, coverin
 
 Key Findings:
 
+1. 
 ### EDA
 
+The following are some of the visualization such:
+1. Visualization of 
 ## Data Preparation
 
 1. Drop Duplicate Data
