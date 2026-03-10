@@ -30,9 +30,20 @@ The following are some of the visualization such:
 ## Data Preparation
 
 1. Drop Duplicate Data
+
+   At this stage, duplicate data is deleted to prevent bias in the model during the training process.
+   
 2. Encoding
+
+   At this stage, feature transformation is performed, which involves converting categorical data in the dataset into  numerical data. The method used is One Hot Encoding, a technique that converts categorical data into numerical data representations without showing any order or hierarchy between categories.
+   
 3. Split Training Data and Test Data
+
+   In this process, the dataset is divided into training data and testing data. The purpose of this division is so that after the model is trained using the training data, the model's performance can be evaluated using the testing data to determine the model's ability to predict new data.
+    
 4. Balance Data
+
+   At this stage, after separating the data into training data and test data, oversampling is performed on the target variable. Oversampling is performed after the train–test split process with the aim of maintaining the authenticity of the test data. In addition, oversampling aims to improve model performance at the training stage and reduce bias towards minority classes.
    
 ## Modelling
 
