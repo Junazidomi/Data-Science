@@ -50,10 +50,21 @@ The following are some of the visualization such:
 In this project, several algorithms for classfication evaluation purpose such as:
 
 1. Logistic Regression
+
+   Logistic Regression is an algorithm that estimates the probability of an event occuring, such as choosing or not choosing, based on a given dataset of independent variables
+   
 2. Random Forest
+
+   Random Forest is a widely used machine learning algorithm that combines the results of several decision trees to achieve single result that is easy to use and flexible
+   
 3. Decision Tree
+
+   Decision Trees are supervised, non-parametric learning algorithms that have a hierarchical tree structure, consisting of root nodes, branches, internal nodes, and leaf nodes.
+   
 4. Gradient Boosting
-5. XGBoost
+
+   Gradient Boosting is a powerful ensemble machine learning technique that builds predictive models, typicall
+6. XGBoost
    
 ## Evaluation
 Evaluate each algorithm used :
