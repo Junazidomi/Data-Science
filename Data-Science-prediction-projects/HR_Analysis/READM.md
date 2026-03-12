@@ -22,11 +22,22 @@ This dataset contains historical data on employees working at a company, coverin
 
 Key Findings:
 
-1. 
+
 ### EDA
 
 The following are some of the visualization such:
-1. Visualization of 
+1. Visulization of 5 Years Promoting
+2. Visualization of Department
+3. Visualization of Left Status
+4. Visualization of Salary
+5. Visualization of Time Spend Company
+6. Visualization of Work Accident
+7. Visualization of Number of Project
+9. Visualization of Department by Salary
+10. Visualization of Left Status VS Numerical Columns
+11. Visualization of Left Status VS Categorical Columns
+12. Visualization of Department by Left
+13. Heatmap of Numerical Feature 
 ## Data Preparation
 
 1. Drop Duplicate Data
@@ -63,8 +74,11 @@ In this project, several algorithms for classfication evaluation purpose such as
    
 4. Gradient Boosting
 
-   Gradient Boosting is a powerful ensemble machine learning technique that builds predictive models, typicall
-6. XGBoost
+   Gradient Boosting is a powerful ensemble machine learning technique that builds predictive models, typically decision trees, in a sequential, iterative manner to minimize errors used for tabular data, regression and classification
+   
+5. XGBoost
+
+   XGBoost (eXtreme Gradient Boosting) is a very fast, efficient, and accurate ensemble learning (boosting approach) machine learning algorithm for classification and regression.
    
 ## Evaluation
 Evaluate each algorithm used :
