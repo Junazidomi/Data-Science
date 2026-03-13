@@ -3,6 +3,9 @@
 ## Business Understanding
 ### Background
 ### Purpose
+
+The objective of this project is to analyze and predict employee leave based on historical data, as well as to assist Human Resources (HR) in managing employees who are likely to leave the company and those who are likely to stay. In addition, this project also aims to assist the company in evaluating policies or regulations related to employees.
+
 ## Data Understanding
 
 This dataset contains historical data on employees working at a company, covering various information related to employee conditions, such as number of working hours, department, salary, and other supporting data.
@@ -21,7 +24,7 @@ This dataset contains historical data on employees working at a company, coverin
 | salary                |    String   | Employee' salaries during their employment at the company each month                                                                                       | 
 
 Key Findings:
-
+1. 
 
 ### EDA
 
