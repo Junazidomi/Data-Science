@@ -29,7 +29,12 @@ This dataset contains historical data on employees working at a company, coverin
 | salary                |    String   | Employee' salaries during their employment at the company each month                                                                                       | 
 
 Key Findings:
-1. 
+
+1. The dataset consists of 10 columns and 14999 rows, with 6 columns of integer data type, 2 columns of float data type, and 2 columns of object data type. The columns with the object data type will perform a feature transformation.
+   
+2. After identifying missing data in the dataset, there is no missing data
+
+3. After identifying duplicate data in the dataset, 3008 rows
 
 ### EDA
 
