@@ -2,6 +2,11 @@
 
 ## Business Understanding
 ### Background
+
+In an increasingly digital age, organizations are required to manage their human resources more effectively and in a data-driven manner. Human resources (HR) is not longer limited to administrative and operational tasks but also plays a strategic role in decision-making
+
+However, the company is facing a trend of employees leaving their jobs, which poses a challenge for the HR department. The process of recruiting new employees requires significant time and resources, forcing the company to invest additional effort. Therefore, a system is needed that can predict whether an employee will leave or not, based on historical employee data within the company. 
+
 ### Purpose
 
 The objective of this project is to analyze and predict employee leave based on historical data, as well as to assist Human Resources (HR) in managing employees who are likely to leave the company and those who are likely to stay. In addition, this project also aims to assist the company in evaluating policies or regulations related to employees.
