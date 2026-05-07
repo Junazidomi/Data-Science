@@ -42,12 +42,42 @@ Key Findings:
 
 The following are some of the visualization such:
 1. Visulization of 5 Years Promoting
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/5%20Years%20Promotion.png" width="350"/>
+
+   Insight:
+   
 2. Visualization of Department
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Department.png" width="350"/>
+
+   Insight:
+   
 3. Visualization of Left Status
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20Status.png" width="350"/>
+
+   Insight:
+   
 4. Visualization of Salary
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Salary.png" width="350"/>
+
+   Insight:
+   
 5. Visualization of Time Spend Company
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Time%20spend%20company.png" width="350"/>
+
+   Insight:
+   
 6. Visualization of Work Accident
-7. Visualization of Number of Project
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Work%20Accident.png" width="350"/>
+
+   Insight:
+   
+8. Visualization of Number of Project
 9. Visualization of Department by Salary
 10. Visualization of Left Status VS Numerical Columns
 11. Visualization of Left Status VS Categorical Columns
