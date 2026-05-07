@@ -1,4 +1,4 @@
-# HR and Job Analysis Prediction
+ # HR and Job Analysis Prediction
 
 ## Business Understanding
 ### Background
@@ -34,7 +34,9 @@ Key Findings:
    
 2. After identifying missing data in the dataset, there is no missing data
 
-3. After identifying duplicate data in the dataset, 3008 rows
+3. After identifying duplicate data in the dataset, 3008 rows were found to be potential duplicates, necessitating futher action to address the issue
+
+4. After identifying outliers, no outliers were found in the dataset.
 
 ### EDA
 
