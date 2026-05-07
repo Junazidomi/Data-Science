@@ -46,43 +46,73 @@ The following are some of the visualization such:
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/5%20Years%20Promotion.png" width="350"/>
 
    Insight:
+
+   Based on the visualization above, it can be seen that the number of employees who have received promotions over the past five years is relative small.
    
 2. Visualization of Department
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Department.png" width="350"/>
 
    Insight:
+
+   Based on the visualization of employee numbers, it can be seen that the Sales department has the largest number of employees, followed by the IT department, while the department with the fewest employees is the Management department.
    
-3. Visualization of Left Status
+3 . Visualization of Left Status
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20Status.png" width="350"/>
 
    Insight:
+
+   Based on the visualization of the number of employees who have left the company, it can be seen that the number of employees who have left is smaller than the number of employees who remain with the company. 
    
 4. Visualization of Salary
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Salary.png" width="350"/>
 
    Insight:
+
+   Based on the visualization of employees levels by salary, it can be seen that the number employees in the medium salary category is the highest compared to other salary categories.
    
 5. Visualization of Time Spend Company
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Time%20spend%20company.png" width="350"/>
 
    Insight:
+
+   Based on the visualization of employees’ tenure at the company, it can be seen that the number of employees who have been with the company for 3 years is the highest compared to other tenure periods. In addition, the number of employees who have been with the company for 7, 8, and 10 years is the lowest. This indicates that most employees at the company do not stay for very long.
    
 6. Visualization of Work Accident
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Work%20Accident.png" width="350"/>
 
    Insight:
+
    
-8. Visualization of Number of Project
-9. Visualization of Department by Salary
-10. Visualization of Left Status VS Numerical Columns
-11. Visualization of Left Status VS Categorical Columns
+7. Visualization of Number of Project
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Number%20of%20project.png" width ="350"/>
+   
+8. Visualization of Department by Salary
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Department%20by%20salary.png" width="350"/>
+   
+9. Visualization of Left Status VS Numerical Columns
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20Status%20vs%20Numerical%20Columns.png" width="350"/>
+    
+10. Visualization of Left Status VS Categorical Columns
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20vs%20kategorikal.png" width="350"/>
+    
 12. Visualization of Department by Left
-13. Heatmap of Numerical Feature 
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/department%20by%20left.png" width="350"/>
+
+    
+14. Heatmap of Numerical Feature
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/heatmap.png" width="350"/>
+    
 ## Data Preparation
 
 1. Drop Duplicate Data
