@@ -41,6 +41,7 @@ Key Findings:
 ### EDA
 
 The following are some of the visualization such:
+
 1. Visulization of 5 Years Promoting
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/5%20Years%20Promotion.png" width="350"/>
@@ -57,7 +58,7 @@ The following are some of the visualization such:
 
    Based on the visualization of employee numbers, it can be seen that the Sales department has the largest number of employees, followed by the IT department, while the department with the fewest employees is the Management department.
    
-3 . Visualization of Left Status
+3. Visualization of Left Status
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20Status.png" width="350"/>
 
