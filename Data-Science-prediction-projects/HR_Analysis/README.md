@@ -104,23 +104,31 @@ The following are some of the visualization such:
 
    Insight:
 
-   Based on the visualization of employees by department and salary level, it can be seen that the Sales department has the largest number of employees, but the majority of its staff fall into the low and medium salary categories. Meanwhile, the Technical
-10. Visualization of Left Status VS Numerical Columns
+   Based on the visualization of employees by department and salary level, it can be seen that the Sales department has the largest number of employees, but the majority of its staff fall into the low and medium salary categories. Meanwhile, the Technical department has the highest number of employees in the high salary category compared to other departments. Overall, in every department, the majority of employees fall into the low and medium salary categories.
+   
+9. Visualization of Left Status VS Numerical Columns
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20Status%20vs%20Numerical%20Columns.png" width="350"/>
-    
-11. Visualization of Left Status VS Categorical Columns
 
-    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20vs%20kategorikal.png" width="350"/>
+    Insight:
     
-12. Visualization of Department by Left
+    Based on the visualisation of employees by departure status using numerical columns, it can be seen that in the visualisation of departure rates against satisfaction levels, employees who have left the company have a different range of values compared to those who remain in employment. Furthermore, based on the last evaluation, employees who have resigned tend to have higher evaluation scores than those who have not resigned
+   
+10. Visualization of Department by Left
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/department%20by%20left.png" width="350"/>
 
+    Insight:
+
+    Based on the visualisation by department on the left, it can be seen that the Sales department has the highest number of resignations, whilst also having the largest number of employees compared to the other departments. Meanwhile, the department with the fewest resignations is the Management department.
     
-14. Heatmap of Numerical Feature
+11. Heatmap of Numerical Feature
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/heatmap.png" width="350"/>
+
+    Insight:
+    
+    Based on the heatmap visualisation of the numerical columns, it can be seen that the highest correlation is between average_monthly_hours and number_project, with a correlation coefficient of 0.33. Meanwhile, the lowest correlation is between time_spend_company and satisfaction_level, with a correlation coefficient of -0.15.
     
 ## Data Preparation
 
