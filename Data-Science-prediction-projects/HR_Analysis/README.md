@@ -88,20 +88,28 @@ The following are some of the visualization such:
 
    Insight:
 
+   Based on the visualisation of workplace accidents, it can be seen that only a small proportion of employees—namely 15.4%—have suffered workplace accidents, whilst the majority of employees have not had any accidents at work.
    
 7. Visualization of Number of Project
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Number%20of%20project.png" width ="350"/>
+
+   Insight:
+
+   Based on the visualization of the number of projects taken on by employees, it can be seen that the majority of employees took on 3 projects, followed by 4 projects. Meanwhile, the number of employees who took on 7 projects was the lowest
    
 8. Visualization of Department by Salary
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Department%20by%20salary.png" width="350"/>
-   
-9. Visualization of Left Status VS Numerical Columns
+
+   Insight:
+
+   Based on the visualization of employees by department and salary level, it can be seen that the Sales department has the largest number of employees, but the majority of its staff fall into the low and medium salary categories. Meanwhile, the Technical
+10. Visualization of Left Status VS Numerical Columns
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20Status%20vs%20Numerical%20Columns.png" width="350"/>
     
-10. Visualization of Left Status VS Categorical Columns
+11. Visualization of Left Status VS Categorical Columns
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/Left%20vs%20kategorikal.png" width="350"/>
     
