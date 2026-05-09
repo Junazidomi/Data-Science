@@ -186,8 +186,10 @@ Evaluate each algorithm used :
 ### Confusion Matrix
 The best model is Random forest. The following is the confusion matrix of the Random Forest.
 
+<img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/HR_Analysis/Picture/CF.png" width="350"/>
 
-Conculusion
+## Conculusion:
+
 - After the training process using several algorithms, the results showed that the most suitable algorithm  for this dataset was Random Forest, with the highest F1 Score of 0.934896 and the highest precision of 0.9780202. Meanwhile, the least suitable algorithm for this dataset was Logistic Regression, as seen from its evaluation metrics, which were the lowest compared to other algorithms.
 - Based on the result of the confusion matrix, it can be seen that the model is able to predict the data very well. This is evident from the relatively small number of false negatives, amounting to 42. Futhermore, the model is also able to distinguish between the two classes effectively, as the number of correct predictions is significantly higher than the number of incorrect predictions.
 - Hyperparameter tuning was not performed in this project because the metrics obtained already showed excellent performance.
