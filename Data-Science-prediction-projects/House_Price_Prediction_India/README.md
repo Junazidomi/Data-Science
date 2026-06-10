@@ -21,8 +21,8 @@ This dataset has been collected from various properties across India, where buye
 |      LATITUDE         |     Float      | Latitude of the property               |
 | TARGET(PRICE_IN_LACS) | 	  Float      | Price of the Property                  |
 
-Key Findings:
-- 
+
+
 ### EDA
 ## Data Preparation
 ## Modelling
