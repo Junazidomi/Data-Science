@@ -54,7 +54,7 @@ Key Findings:
    
 5. Visualization of Type of Property of Houses
 
-   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Type%20property.png" src="460"/>
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Type%20property.png" width="460"/>
 
    Insight:
    
