@@ -2,6 +2,7 @@
 ## Business Understanding
 ### Background
 ### Purpose
+
 ## Data Understandings
 
 This dataset has been collected from various properties across India, where buyers wish to purchase property based on a number of factors; therefore a model is required to predict house prices based on these factors. [Dataset](https://www.kaggle.com/datasets/anmolkumar/house-price-prediction-challenge)
@@ -46,15 +47,63 @@ Key Findings:
    Insight:
 
 4. Visualization of Houses Sales Based Who is selling
+   
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/who%20is%20selling.png" width="460"/>
+
+   Insight:
+   
 5. Visualization of Type of Property of Houses
-6. Visualization of Type of Sellers of Houses
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Type%20property.png" src="460"/>
+
+   Insight:
+   
+6. Visualization of Houses sold by Resale 
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/RESALE.png" width="460"/>
+
+   Insight:
+   
 7. Visualization of Status of Houses Under Construction
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Under%20construction.png" width="460"/>
+
+   Insight:
+   
 8. Visualization of Number of House Ready to Move
-9. Visualization of Top Number of Houses Based on Address and RERA authority
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Ready_to_move.png" width="460"/>
+
+   Insight:
+   
+9. Visualization of Top 5 Number of Houses Based on Address and RERA authority
+
+   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Address%20vs%20RERA.png" width="460"/>
+
+   Insight:
+   
 10. Visualization of Number of Houses Based on Address and Seller
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/ADDRESS%20VS%20SELLER.png" width="460"/>
+
+    Insight:
+   
 11. Visualization of Houses Sales Based on Under Construction by Property Category
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/under%20construction%20by%20property%20category.png" width="460"/>
+
+    Insight:
+    
 12. Visualization of Seller Type by House Status
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/SELLER%20TYPE%20VS%20HOUSE%20STATUS.png" width="460"/>
+
+    Insight:
+    
 13. Visualization of Heatmap of Numerical Features
+
+    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Heatmap.png" width="460"/>
+    
 ## Data Preparation
 
 The data preparation process is as follows:
