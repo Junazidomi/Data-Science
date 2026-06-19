@@ -1,7 +1,10 @@
 # House Price Prediction
 ## Business Understanding
 ### Background
+
 ### Purpose
+
+The purpose of this project is to offer solutions that help consumers search for and purchase property in India in line with their budget, preferences and the criteria they specify
 
 ## Data Understandings
 
