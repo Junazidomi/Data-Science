@@ -27,7 +27,7 @@ This dataset has been collected from various properties across India, where buye
 
 Key Findings:
 
-- 
+- The dataset has 
 
 ### EDA
 
