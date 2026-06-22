@@ -27,7 +27,10 @@ This dataset has been collected from various properties across India, where buye
 
 Key Findings:
 
-- The dataset has 
+- The dataset has 12 columns, including 9 numeric columns and 3 categorical columns. The Target column (PRICE_IN_LACS) is used as the target variable, while the categorical columns will undergo feature transformation before being used in the model. In addition, the dataset has a total of 29,451 rows and 12 columns
+- After identifying duplicate records, 401 duplicate record were found in the dataset. Therefore, this issue must be addressed to maintain data quality and improve the accuracy of the analysis results.
+- After identifying the missing values, it was found that there were no missing values in the dataset. Therefore, no missing value handling was required durin the data preprocessing stage.
+- After identifying outliers in the continous variables, such as SQUARE_FT, LATITUDE, and TARGET (PRICE_IN_LACS), outlier values were found in all columns. Therefore, outliers in the SQUARE_FT, LATITUDE, and LONGITUDE columns were handled through a data normalization process. Meanwhile, the TARGET (PRICE_IN_LACS) column was not normalized because it serves as the target variable in the modeling process, so its original values needed to be preserved.
 
 ### EDA
 
