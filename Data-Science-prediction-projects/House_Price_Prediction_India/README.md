@@ -2,6 +2,10 @@
 ## Business Understanding
 ### Background
 
+One of the key factors in real estate transactions in India is property pricing. Property prices are influenced by various factors, such as area size, number of rooms, property condition, location, property type, and other charateristics. The wide range of prices and the numerous influencing factors pose a challenge for both consumers and sellers in determining a fair property value and making the right purchasing decisions.
+
+With the development of information and communication technology, particularly in the fields of Artificial Intelligence (AI), these issues can be addressed through a data-driven approach. By utilizing historical real estate transaction data, a property price prediction model can be developed that estimates a property's value based on its characteristics. This model is expected to help consumers choose properties that fit their budget and needs, as well as assist sellers in setting more accurate and competitive asking prices. 
+
 ### Purpose
 
 The purpose of this project is to offer solutions that help consumers search for and purchase property in India in line with their budget, preferences and the criteria they specify
@@ -39,6 +43,8 @@ Key Findings:
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/ADDRESS.png" width="460"/>
 
    Insight:
+
+   Based on the distribution of the top 20 locations by property address in India, it was found that the location with the highest number of properties is Zirakpur, Chandigarh, followed by Whitefield, Bangalore, and Raj Nagar Extension, Ghaziabad.
    
 2. Visualization of Sold by Number of Rooms
 
@@ -46,6 +52,8 @@ Key Findings:
 
    Insight:
 
+   Based on a visualization of homes for sale by number of rooms, it was found that homes with 2 or 3 rooms are the most common compared to others.
+   
 3. Visualization of RERA Approval on Houses for Sale
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/RERA.png" width="460"/>
@@ -57,30 +65,40 @@ Key Findings:
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/who%20is%20selling.png" width="460"/>
 
    Insight:
+
+   Based on the visualization of the number of properties sold by seller type, it is evident that the "Deller" category has the highest number of properties compared to the other categories. The "Owner" category ranks second, while "Builder" has the fewest properties. This indicates that the majority of property transactions in the dataset are conducted through intermediaries or dealers, while direct sales by owners or developers account for a smaller proportion.
    
 5. Visualization of Type of Property of Houses
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Type%20property.png" width="460"/>
 
    Insight:
+
+   Based on the visualization of property types, it was found that there are more BHK (Bedroom, Hall, and Kitchen) properties than RK (Room and Kithen) properties.
    
 6. Visualization of Houses sold by Resale 
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/RESALE.png" width="460"/>
 
    Insight:
+
+   Based on the visualization of the resale property status, it was found that about 93% of all properties sold were resale properties, while about 7% were non-resale properties or newly contructed properties.
    
 7. Visualization of Status of Houses Under Construction
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Under%20construction.png" width="460"/>
 
    Insight:
+
+   Based on a visualization of properties for sale listed as "Under Construction". It was found that about 82% of the properties for sale are not currently under construction, while about 18% are still under construction.
    
 8. Visualization of Number of House Ready to Move
 
    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Ready_to_move.png" width="460"/>
 
    Insight:
+
+   Based on the "Ready to Move" status visualization it was found that about 82% of all properties for sale are move-in ready, while the remaining 18% are not yet move-in ready.
    
 9. Visualization of Top 5 Number of Houses Based on Address and RERA authority
 
@@ -88,28 +106,31 @@ Key Findings:
 
    Insight:
    
-10. Visualization of Number of Houses Based on Address and Seller
+11. Visualization of Number of Houses Based on Address and Seller
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/ADDRESS%20VS%20SELLER.png" width="460"/>
 
     Insight:
    
-11. Visualization of Houses Sales Based on Under Construction by Property Category
+12. Visualization of Houses Sales Based on Under Construction by Property Category
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/under%20construction%20by%20property%20category.png" width="460"/>
 
     Insight:
     
-12. Visualization of Seller Type by House Status
+13. Visualization of Seller Type by House Status
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/SELLER%20TYPE%20VS%20HOUSE%20STATUS.png" width="460"/>
 
     Insight:
     
-13. Visualization of Heatmap of Numerical Features
+14. Visualization of Heatmap of Numerical Features
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Heatmap.png" width="460"/>
-    
+
+    Insight:
+
+    Based on the heatmap visualization of the continous numerical variables, it was found that the pair of variables with the strongest relationship is SQUARE_FT and TARGET (PRICE_IN_LACS), with a correlation cofficient of 0.4. This indicates a strong positive relationship between property area and property price.
 ## Data Preparation
 
 The data preparation process is as follows:
