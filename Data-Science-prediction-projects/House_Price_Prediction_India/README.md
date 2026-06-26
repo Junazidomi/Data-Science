@@ -100,12 +100,6 @@ Key Findings:
 
    Based on the "Ready to Move" status visualization it was found that about 82% of all properties for sale are move-in ready, while the remaining 18% are not yet move-in ready.
    
-9. Visualization of Top 5 Number of Houses Based on Address and RERA authority
-
-   <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Address%20vs%20RERA.png" width="460"/>
-
-   Insight:
-   
 11. Visualization of Number of Houses Based on Address and Seller
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/ADDRESS%20VS%20SELLER.png" width="460"/>
