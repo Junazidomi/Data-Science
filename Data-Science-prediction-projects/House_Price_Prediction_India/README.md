@@ -177,3 +177,7 @@ The following is an evaluation of each algorithms used:
 
 ## Conclusion
 
+- All of the feature used contribute to the target variable PRICE_IN_LACS.
+- The algorithm that can be used to predict property prices in India is Gradient Boosting, as it has the highest R² value compared to other algorithms and the lowest MSE value, even though its MAE value is higher than that of ther algorithms.
+- The algorithm that is least effective at predicting property prices in India is the XGB Regressor, and it has the lowest R² value compared to the other algorithms.
+ 
