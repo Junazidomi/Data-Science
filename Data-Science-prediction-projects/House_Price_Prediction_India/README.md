@@ -100,31 +100,30 @@ Key Findings:
 
    Based on the "Ready to Move" status visualization it was found that about 82% of all properties for sale are move-in ready, while the remaining 18% are not yet move-in ready.
    
-11. Visualization of Number of Houses Based on Address and Seller
+9. Visualization of Number of Houses Based on Address and Seller
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/ADDRESS%20VS%20SELLER.png" width="460"/>
 
-    Insight:
+   Insight:
+
+   Based on a visualization of the number of properties by address and seller type, it was found that the majority of properties for sale at various addresses in India are listed by dealers. Meanwhile, builders represent the seller category with the fewest properties compared to other categories.
    
-12. Visualization of Houses Sales Based on Under Construction by Property Category
+10. Visualization of Houses Sales Based on Under Construction by Property Category
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/under%20construction%20by%20property%20category.png" width="460"/>
 
     Insight:
-    
-13. Visualization of Seller Type by House Status
 
-    <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/SELLER%20TYPE%20VS%20HOUSE%20STATUS.png" width="460"/>
-
-    Insight:
-    
-14. Visualization of Heatmap of Numerical Features
+    Based on the visualization of properties by "Under Construction" status and property category, the graph on the left shows that most properties not currently under construction have not been registered with RERA, whereas among properties still under construction, the number of properties registered wwith RERA is greater than those not yet registered. Meanwhile, the graph on the right shows that the majority of properties for sale are not currently under construction and are resale properties.
+     
+11. Visualization of Heatmap of Numerical Features
 
     <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/House_Price_Prediction_India/Picture/Heatmap.png" width="460"/>
 
     Insight:
 
     Based on the heatmap visualization of the continous numerical variables, it was found that the pair of variables with the strongest relationship is SQUARE_FT and TARGET (PRICE_IN_LACS), with a correlation cofficient of 0.4. This indicates a strong positive relationship between property area and property price.
+    
 ## Data Preparation
 
 The data preparation process is as follows:
