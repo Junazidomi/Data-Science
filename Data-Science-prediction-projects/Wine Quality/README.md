@@ -23,6 +23,7 @@ This dataset contains information about various types of wine and their chemical
 | quality                 |    Int     | The wine quality score that serves as the target/label in the analysis. The higher the score, the better the wine's quality based on dataset's assessment |
 | Id                      |    Int     | Unique number, or typically an identifier, rather than a key feature |
 
+Key Findings:
 
 ## Data Preparation
 
@@ -34,6 +35,26 @@ The Data Preparation process is as follows:
   
 ## Modelling
 
-In this project,
+In this project, several algorithms for regression evaluation purpose such as:
+
+1. Linear Regression
+2. Random Forest
+3. Decision Tree
+4. SVM
+5. GBR (Gradient Boostinf Regressor)
+6. XGBoost
+   
 ## Evaluation
+
+The following is an evaluation of each algorithms used:
+
+|              Algoritm             |     MAE    |    MSE    |     R2     |
+|-----------------------------------|------------|-----------|------------|
+| Linear Regression                 |  0.477340  |  0.380032 |  0.317069  |
+| Random Forest                     |  0.419651  |  0.304523 |  0.452762  |
+| Decision Tree                     |  0.510917  |  0.606987 |	-0.090775 |
+| SVM                               |  0.402766  |  0.301549 |  0.458106  |
+| GBR (Gradient Boosting Regressor) |  0.446108  |  0.329243 |  0.408339  |
+| XGBoost                           |  0.446108  |  0.330661 |  0.408339  |
+
 ## Conclusion
