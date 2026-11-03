@@ -38,11 +38,29 @@ The Data Preparation process is as follows:
 In this project, several algorithms for regression evaluation purpose such as:
 
 1. Linear Regression
+
+   Linear Regression is a technique for predicting unknown data values using other related, know data values; creating a mathematical model of the unknown variable (dependent variable) and the known variables (independent variables) int the form of a linear equation
+   
 2. Random Forest
+
+   Random Forest is an algorithm that combines the outputs of multiple decision trees to achieve better performance
+   
 3. Decision Tree
+
+   Decision tree is a machine learning algorithm in the form of a tree structure consisting of nodes that represent of those decisions. Each node in a decision tree represent a variable in the dataset that influences the decision and its consequences.
+   
 4. SVM
+
+   Support Vector Machine (SVM) Regression is a supervised learning algorithm used to predict the value of contionous variables. The basic objective of the SVR algorithm is to find the most appropriate decision line, whereby SVR attempts to adjust the best line within the threshold value (the distance between the hyperlane and the boundary line)
+
 5. GBR (Gradient Boostinf Regressor)
+
+   Gradient Boosting is an ensemble learning algorithm that produces accurate predictions by combining multiple decision trees into a single model.
+   
 6. XGBoost
+
+   XGBoost uses ensemble learning techniques, which combine predictions from multiple models to improve overall performance. This approach is based on boosting techniques, where weak learners, usually simple decision trees, are combined into a strong learner.
+   
    
 ## Evaluation
 
