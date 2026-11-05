@@ -16,7 +16,7 @@ This dataset contains information about various types of wine and their chemical
 | chlorides               |    Float   | Measuring the salt (chloride) content in wine. High levels can make the wine taste saltier |
 | free sulfur dioxide     |    Float   | The amount of sulfur dioxide (SO₂) in its free form, which acts as a preservative and helps prevent oxidation and the growth of microrganisms. |
 | total sulfur dioxide    |    Float   | The total amount of sulfur dioxide, both free and bound, in wine. |
-| density	              |    Float   | The density of wine. Its value can be influenced by the alcohol and sugar content in the wine. |
+| density	                |    Float   | The density of wine. Its value can be influenced by the alcohol and sugar content in the wine. |
 | pH                      |    Float   | Acidity level of wine. A lower pH value indicates a more acidic wine, while a higher values indicates a lower acidity level |
 | sulphates               |    Float   | The sulfate content in wine can act as an antioxidant and affect the characteristics and stability of the wine |
 | alcohol                 |    Float   | The percentage of alcohol content in wine by volume (ABV) |
@@ -25,13 +25,28 @@ This dataset contains information about various types of wine and their chemical
 
 Key Findings:
 
+- Based on the results of the data identification, the dataset consists of 13 columns, with 11 columns of type float and 2 columns of type integer. The Id column will be dropped because it not relevant to the analysis and modelling process. Meanwhile, the quality assesment column is used as the target variable in the modelling process.
+- Based on the results of the analysis of missing values, it was found that the dataset contains no missing values.
+- Based on the results of the analysis of duplicate data, it was found that the dataset contains no duplicate data. 
+
+### Data Visualization
+
+
 ## Data Preparation
 
 The Data Preparation process is as follows:
 
 1. Drop Irrelevant Column
+
+   In this process, the dataset drops columns that are not relevant to the data. In this dataset, the columns that are unrelated or irrelevant are the ID columns.
+   
 2. Split Data Training and Test
+
+   In this process, the dataset is split into two parts: training data and testing data. The training data is used to train the model to recognize and learn the patterns present in the dataset. The testing data is then used to evaluate the model's performance on data it has never seen before, thereby determining how well the model can recognize patterns and make accurate predictions.
+   
 3. Normalization
+
+  Normalization is the process of converting numerical values to a common scale without distorting their original range differences.
   
 ## Modelling
 
