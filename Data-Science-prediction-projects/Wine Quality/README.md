@@ -4,6 +4,8 @@
 
 
 ## Purpose
+
+
 ## Data Understandings
 
 This dataset contains information about various types of wine and their chemical charateristics, such as pH, density, alcohol content, and other parameters related to wine quality. This dataset is used to train machine learning models to predict or classify wine quality based on these charateristics. [Dataset](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
@@ -30,7 +32,8 @@ Key Findings:
 - Based on the results of the analysis of duplicate data, it was found that the dataset contains no duplicate data. 
 
 ### Data Visualization
-
+- Heatmap of Numerical Feature
+- Histogram of Numerical Feature
 
 ## Data Preparation
 
@@ -45,7 +48,7 @@ The Data Preparation process is as follows:
    In this process, the dataset is split into two parts: training data and testing data. The training data is used to train the model to recognize and learn the patterns present in the dataset. The testing data is then used to evaluate the model's performance on data it has never seen before, thereby determining how well the model can recognize patterns and make accurate predictions.
    
 3. Normalization
-
+   
   Normalization is the process of converting numerical values to a common scale without distorting their original range differences.
   
 ## Modelling
