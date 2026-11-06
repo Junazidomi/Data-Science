@@ -5,6 +5,8 @@
 
 ## Purpose
 
+The purpose of this project is to develop a predictive model capable of estimating wine quality based on the characteristics and specifications contained in the dataset. This model is expected to help consumers obtain information about wine quality, which they can use as a basis for selecting wines that align with their preferences and needs.
+
 
 ## Data Understandings
 
@@ -33,8 +35,16 @@ Key Findings:
 
 ### Data Visualization
 - Heatmap of Numerical Feature
+
+  <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Wine%20Quality/Picture/Heatmap.png" width="500"/>
+
+  Insight:
+  
+  
 - Histogram of Numerical Feature
 
+  <img src="https://raw.githubusercontent.com/Junazidomi/Data-Science/refs/heads/main/Data-Science-prediction-projects/Wine%20Quality/Picture/Histogram.png" width="500"/>
+  
 ## Data Preparation
 
 The Data Preparation process is as follows:
